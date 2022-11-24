@@ -31,7 +31,9 @@
 
 
             <p class="variable_name">X</p>
-            <p:inputText type='hidden' value="#{attemptHitter.x}" name='x' id='x'/>
+            <p:inputText type='hidden' value="#{attemptHitter.x}" name='x' id='x'>
+                <f:converter converterId="javax.faces.Double" />
+            </p:inputText>
             <div id="xButtons">
                 <h:commandButton name="xButton" type="button" id="button1" class="button"
                                  value="-2" onclick="changeClassToEnabledX(this.id)"/>
@@ -62,8 +64,10 @@
             </div>
 
             <p class="variable_name">Y</p>
-            <p:inputNumber
-                    name="y" id="y" minValue="-3" maxValue="3" decimalSeparator="." decimalPlaces="6"  value="#{attemptHitter.y}"/>
+                <p:inputNumber
+                    name="y" id="y" minValue="-3" maxValue="3" decimalSeparator="." decimalPlaces="6"  value="#{attemptHitter.y}">
+                    <f:converter converterId="javax.faces.Double" />
+                </p:inputNumber>
 
 
 

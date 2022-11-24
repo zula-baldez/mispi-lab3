@@ -2,15 +2,18 @@ package com.example.facelets;
 
 import javax.faces.bean.ManagedBean;
 import javax.faces.bean.ManagedProperty;
+import javax.faces.bean.SessionScoped;
 import javax.faces.context.FacesContext;
 import java.util.Map;
 
 @ManagedBean
+@SessionScoped
 public class AttemptHitter {
     private double x;
     private double y;
-    private double r;
+    private int r;
     private int attempt = 0;
+
     @ManagedProperty(value = "#{dbManager}")
     private DbManager dbManager;
 
@@ -30,11 +33,11 @@ public class AttemptHitter {
         this.y = y;
     }
 
-    public double getR() {
+    public int getR() {
         return r;
     }
 
-    public void setR(double r) {
+    public void setR(int r) {
         this.r = r;
     }
 
@@ -55,17 +58,19 @@ public class AttemptHitter {
     }
 
     public void checkHit() {
+        if (r<=0 || r > 5) {
+            return;
+        }
         attempt++;
         long start = System.currentTimeMillis();
         long start_time_nano = System.nanoTime();
         boolean hit;
-        if (x >= 0 && y <= r / 2 - x && y >= 0) hit = true;
-        else if (x >= 0 && y <= 0 && y >= -r && x <= r / 2) hit = true;
+        if (x >= 0 && y <= r / 2.0 - x && y >= 0) hit = true;
+        else if (x >= 0 && y <= 0 && y >= -r && x <= r / 2.0) hit = true;
         else if (x <= 0 && y >= 0 && x * x + y * y <= r * r) hit = true;
         else hit = false;
         Long startTime = (start);
         Long workTime = ((System.nanoTime() - start_time_nano));
-
         Attempt attempt = new Attempt(this.attempt, x, y, r, hit, workTime, startTime);
         dbManager.addAttempt(attempt);
     }
@@ -73,7 +78,9 @@ public class AttemptHitter {
     public void addAttemptFromJsParams() {
         Map<String, String> params = FacesContext.getCurrentInstance().getExternalContext().getRequestParameterMap();
         try {
-            if(r == 0) return;
+            if (r<=0 || r > 5) {
+                return;
+            }
             double x = Double.parseDouble(params.get("x"));
             double y = Double.parseDouble(params.get("y"));
             this.x = x;

@@ -13,8 +13,6 @@ public class TimeZoner {
     private String timeZone;
     public String getTimeZone() {
         return timeZone;
-
-
     }
     public void setTimeZone() {
         Map<String, String> params = FacesContext.getCurrentInstance().getExternalContext().getRequestParameterMap();

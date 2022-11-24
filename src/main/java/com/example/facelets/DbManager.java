@@ -1,12 +1,11 @@
 package com.example.facelets;
 
 import com.google.gson.Gson;
+
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
-
 import javax.faces.bean.ManagedBean;
-import javax.faces.bean.ManagedProperty;
 import javax.faces.bean.SessionScoped;
 import java.io.Serializable;
 import java.util.Collections;
@@ -22,21 +21,17 @@ public class DbManager implements Serializable {
     private String getString = "From Attempt";
 
     public void addAttempt(Attempt attempt) {
-        if(attempt.getR() == 0) return;
         Session session = sessionFactory.getCurrentSession();
         session.beginTransaction();
         session.persist(attempt);
         session.getTransaction().commit();
-
-
-
     }
 
 
 
     public List<Attempt> getAttempts() {
         try (Session session = sessionFactory.openSession()) {
-            List<Attempt> attempts = session.createQuery(getString).list();
+            List<Attempt> attempts = session.createQuery(getString, Attempt.class).list();
             Collections.reverse(attempts);
             return attempts;
         }

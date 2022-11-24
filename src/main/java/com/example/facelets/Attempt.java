@@ -8,28 +8,26 @@ import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.Transient;
 
-import javax.faces.bean.SessionScoped;
 import java.io.Serializable;
 import java.text.SimpleDateFormat;
 import java.util.Objects;
 
 
 @Entity
-@SessionScoped
 public class Attempt implements Serializable {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
     @Column
-    private int attempt = 0;
+    private Integer attempt = 0;
     @Column
-    private double x;
+    private Double x;
     @Column
-    private double y;
+    private Double y;
     @Column
-    private double r;
+    private Double r;
     @Column
-    private boolean hit;
+    private Boolean hit;
     @Column
     private Long workTime;
     @Column
