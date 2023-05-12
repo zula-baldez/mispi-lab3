@@ -16,6 +16,8 @@
         <dependency org="org.mockito" name="mockito-all" rev="2.0.2-beta"/>
         <dependency org="org.hibernate" name="hibernate-core" rev="6.1.4.Final"/>
         <dependency org="javax.persistence" name="javax.persistence-api" rev="2.2"/>
+        <dependency org="javax.faces" name="javax.faces-api" rev="2.2"/>
+        <dependency org="javax.inject" name="javax.inject" rev="1"/>
 
     </dependencies>
 </ivy-module>
