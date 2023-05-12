@@ -13,6 +13,11 @@ public class AttemptHitter {
     private double y;
     private int r;
     private int attempt = 0;
+    private HitService hitService;
+
+    public HitService getHitService() {
+        return hitService;
+    }
 
     @ManagedProperty(value = "#{dbManager}")
     private DbManager dbManager;
@@ -57,18 +62,16 @@ public class AttemptHitter {
         this.dbManager = dbManager;
     }
 
-    public void checkHit() {
-        if (r<=0 || r > 5) {
+
+
+    public void addHit() {
+        if (r <= 0 || r > 5) {
             return;
         }
         attempt++;
         long start = System.currentTimeMillis();
         long start_time_nano = System.nanoTime();
-        boolean hit;
-        if (x >= 0 && y <= r / 2.0 - x && y >= 0) hit = true;
-        else if (x >= 0 && y <= 0 && y >= -r && x <= r / 2.0) hit = true;
-        else if (x <= 0 && y >= 0 && x * x + y * y <= r * r) hit = true;
-        else hit = false;
+        boolean hit = hitService.checkHit(x, y, r);
         Long startTime = (start);
         Long workTime = ((System.nanoTime() - start_time_nano));
         Attempt attempt = new Attempt(this.attempt, x, y, r, hit, workTime, startTime);
@@ -85,7 +88,7 @@ public class AttemptHitter {
             double y = Double.parseDouble(params.get("y"));
             this.x = x;
             this.y = y;
-            checkHit();
+            addHit();
         } catch (IllegalArgumentException e) {
             e.printStackTrace();
         }
