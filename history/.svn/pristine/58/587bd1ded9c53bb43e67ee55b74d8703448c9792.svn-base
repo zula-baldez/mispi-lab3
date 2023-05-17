@@ -1,0 +1,538 @@
+<html xmlns:string="xalan://java.lang.String" xmlns:lxslt="http://xml.apache.org/xslt">
+    <head>
+        <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Unit Test Results: com.example.facelets.HitServiceTest</title>
+        <link rel="stylesheet" type="text/css" title="Style" href="../../../stylesheet.css">
+        <script type="text/javascript" language="JavaScript">
+        var TestCases = new Array();
+        var cur;
+        
+    cur = TestCases['com.example.facelets.HitServiceTest'] = new Array();
+    
+        cur['ant.core.lib'] = '/usr/share/ant/lib/ant.jar';
+    
+        cur['ant.file'] = '/home/egor/mispi-svn-3/trunk/weblab-3/history/trunk/weblab-3/build.xml';
+    
+        cur['ant.file.type'] = 'file';
+    
+        cur['ant.file.type.weblab-3'] = 'file';
+    
+        cur['ant.file.weblab-3'] = '/home/egor/mispi-svn-3/trunk/weblab-3/history/trunk/weblab-3/build.xml';
+    
+        cur['ant.home'] = '/usr/share/ant';
+    
+        cur['ant.home.ivy.instance'] = '/usr/share/ant';
+    
+        cur['ant.java.version'] = '17';
+    
+        cur['ant.library.dir'] = '/usr/share/ant/lib';
+    
+        cur['ant.library.dir.ivy.instance'] = '/usr/share/ant/lib';
+    
+        cur['ant.project.default-target'] = 'build';
+    
+        cur['ant.project.invoked-targets'] = 'test';
+    
+        cur['ant.project.name'] = 'weblab-3';
+    
+        cur['ant.version'] = 'Apache Ant(TM) version 1.10.12 compiled on January 17 1970';
+    
+        cur['ascii.dest'] = './ascii';
+    
+        cur['ascii.ext'] = '.properties';
+    
+        cur['av-flag'] = 'true';
+    
+        cur['basedir'] = '/home/egor/mispi-svn-3/trunk/weblab-3/history/trunk/weblab-3';
+    
+        cur['basedir.ivy.instance'] = '/home/egor/mispi-svn-3/trunk/weblab-3';
+    
+        cur['build.dir'] = 'build';
+    
+        cur['classes.dir'] = 'build/classes';
+    
+        cur['dir.diff'] = 'src';
+    
+        cur['file.encoding'] = 'UTF-8';
+    
+        cur['file.encoding.ivy.instance'] = 'UTF-8';
+    
+        cur['file.name'] = 'aboba.txt';
+    
+        cur['file.separator'] = '/';
+    
+        cur['file.separator.ivy.instance'] = '/';
+    
+        cur['flg'] = 'false';
+    
+        cur['ivy.basedir'] = '/home/egor/mispi-svn-3/trunk/weblab-3';
+    
+        cur['ivy.basedir.ivy.instance'] = '/home/egor/mispi-svn-3/trunk/weblab-3';
+    
+        cur['ivy.build.artifacts.dir'] = '/home/egor/mispi-svn-3/trunk/weblab-3/build/artifacts';
+    
+        cur['ivy.build.artifacts.dir.ivy.instance'] = '/home/egor/mispi-svn-3/trunk/weblab-3/build/artifacts';
+    
+        cur['ivy.buildlist.ivyfilepath'] = 'ivy.xml';
+    
+        cur['ivy.buildlist.ivyfilepath.ivy.instance'] = 'ivy.xml';
+    
+        cur['ivy.cache.dir'] = '/home/egor/.ivy2/cache';
+    
+        cur['ivy.cache.dir.ivy.instance'] = '/home/egor/.ivy2/cache';
+    
+        cur['ivy.cache.ttl.default'] = '10s';
+    
+        cur['ivy.cache.ttl.default.ivy.instance'] = '10s';
+    
+        cur['ivy.checksums'] = 'sha1,md5';
+    
+        cur['ivy.checksums.ivy.instance'] = 'sha1,md5';
+    
+        cur['ivy.conf.dir'] = 'jar:file:/usr/share/ant/lib/ivy-2.5.1.jar!/org/apache/ivy/core/settings';
+    
+        cur['ivy.conf.dir.ivy.instance'] = 'jar:file:/usr/share/ant/lib/ivy-2.5.1.jar!/org/apache/ivy/core/settings';
+    
+        cur['ivy.conf.url'] = 'jar:file:/usr/share/ant/lib/ivy-2.5.1.jar!/org/apache/ivy/core/settings/ivysettings.xml';
+    
+        cur['ivy.conf.url.ivy.instance'] = 'jar:file:/usr/share/ant/lib/ivy-2.5.1.jar!/org/apache/ivy/core/settings/ivysettings.xml';
+    
+        cur['ivy.configurations'] = '*';
+    
+        cur['ivy.configurations.ivy.instance'] = '*';
+    
+        cur['ivy.default.always.check.exact.revision'] = 'false';
+    
+        cur['ivy.default.always.check.exact.revision.ivy.instance'] = 'false';
+    
+        cur['ivy.default.conf.dir'] = 'jar:file:/usr/share/ant/lib/ivy-2.5.1.jar!/org/apache/ivy/core/settings';
+    
+        cur['ivy.default.conf.dir.ivy.instance'] = 'jar:file:/usr/share/ant/lib/ivy-2.5.1.jar!/org/apache/ivy/core/settings';
+    
+        cur['ivy.default.ivy.user.dir'] = '/home/egor/.ivy2';
+    
+        cur['ivy.default.ivy.user.dir.ivy.instance'] = '/home/egor/.ivy2';
+    
+        cur['ivy.default.settings.dir'] = 'jar:file:/usr/share/ant/lib/ivy-2.5.1.jar!/org/apache/ivy/core/settings';
+    
+        cur['ivy.default.settings.dir.ivy.instance'] = 'jar:file:/usr/share/ant/lib/ivy-2.5.1.jar!/org/apache/ivy/core/settings';
+    
+        cur['ivy.deliver.ivy.pattern'] = '/home/egor/mispi-svn-3/trunk/weblab-3/distrib/[type]s/[artifact]-[revision](-[classifier]).[ext]';
+    
+        cur['ivy.deliver.ivy.pattern.ivy.instance'] = '/home/egor/mispi-svn-3/trunk/weblab-3/distrib/[type]s/[artifact]-[revision](-[classifier]).[ext]';
+    
+        cur['ivy.dep.file'] = 'ivy.xml';
+    
+        cur['ivy.dep.file.ivy.instance'] = 'ivy.xml';
+    
+        cur['ivy.deps.changed'] = 'false';
+    
+        cur['ivy.distrib.dir'] = '/home/egor/mispi-svn-3/trunk/weblab-3/distrib';
+    
+        cur['ivy.distrib.dir.ivy.instance'] = '/home/egor/mispi-svn-3/trunk/weblab-3/distrib';
+    
+        cur['ivy.home'] = '/home/egor/.ivy2';
+    
+        cur['ivy.home.ivy.instance'] = '/home/egor/.ivy2';
+    
+        cur['ivy.lib.dir'] = '/home/egor/mispi-svn-3/trunk/weblab-3/lib';
+    
+        cur['ivy.lib.dir.ivy.instance'] = '/home/egor/mispi-svn-3/trunk/weblab-3/lib';
+    
+        cur['ivy.local.default.artifact.pattern'] = '[organisation]/[module]/[revision]/[type]s/[artifact].[ext]';
+    
+        cur['ivy.local.default.artifact.pattern.ivy.instance'] = '[organisation]/[module]/[revision]/[type]s/[artifact].[ext]';
+    
+        cur['ivy.local.default.ivy.pattern'] = '[organisation]/[module]/[revision]/[type]s/[artifact].[ext]';
+    
+        cur['ivy.local.default.ivy.pattern.ivy.instance'] = '[organisation]/[module]/[revision]/[type]s/[artifact].[ext]';
+    
+        cur['ivy.local.default.root'] = '/home/egor/.ivy2/local';
+    
+        cur['ivy.local.default.root.ivy.instance'] = '/home/egor/.ivy2/local';
+    
+        cur['ivy.log.modules.in.use'] = 'false';
+    
+        cur['ivy.log.modules.in.use.ivy.instance'] = 'false';
+    
+        cur['ivy.module'] = 'com';
+    
+        cur['ivy.organisation'] = 'com.tutorialspoint';
+    
+        cur['ivy.parents.count'] = '0';
+    
+        cur['ivy.project.dir'] = '/home/egor/mispi-svn-3/trunk/weblab-3';
+    
+        cur['ivy.project.dir.ivy.instance'] = '/home/egor/mispi-svn-3/trunk/weblab-3';
+    
+        cur['ivy.publish.src.artifacts.pattern'] = '/home/egor/mispi-svn-3/trunk/weblab-3/distrib/[type]s/[artifact]-[revision](-[classifier]).[ext]';
+    
+        cur['ivy.publish.src.artifacts.pattern.ivy.instance'] = '/home/egor/mispi-svn-3/trunk/weblab-3/distrib/[type]s/[artifact]-[revision](-[classifier]).[ext]';
+    
+        cur['ivy.report.output.pattern'] = '[organisation]-[module]-[conf].[ext]';
+    
+        cur['ivy.report.output.pattern.ivy.instance'] = '[organisation]-[module]-[conf].[ext]';
+    
+        cur['ivy.resolve.default.type.filter'] = '*';
+    
+        cur['ivy.resolve.default.type.filter.ivy.instance'] = '*';
+    
+        cur['ivy.resolved.configurations'] = 'default';
+    
+        cur['ivy.resolved.file'] = '/home/egor/mispi-svn-3/trunk/weblab-3/history/trunk/weblab-3/ivy.xml';
+    
+        cur['ivy.resolver.default.check.modified'] = 'false';
+    
+        cur['ivy.resolver.default.check.modified.ivy.instance'] = 'false';
+    
+        cur['ivy.retrieve.pattern'] = '/home/egor/mispi-svn-3/trunk/weblab-3/lib/[artifact]-[revision](-[classifier]).[ext]';
+    
+        cur['ivy.retrieve.pattern.ivy.instance'] = '/home/egor/mispi-svn-3/trunk/weblab-3/lib/[artifact]-[revision](-[classifier]).[ext]';
+    
+        cur['ivy.revision'] = 'working@OMEN-Laptop-15-en0xxx';
+    
+        cur['ivy.settings.dir'] = 'jar:file:/usr/share/ant/lib/ivy-2.5.1.jar!/org/apache/ivy/core/settings';
+    
+        cur['ivy.settings.dir.ivy.instance'] = 'jar:file:/usr/share/ant/lib/ivy-2.5.1.jar!/org/apache/ivy/core/settings';
+    
+        cur['ivy.settings.dir.url'] = 'jar:file:/usr/share/ant/lib/ivy-2.5.1.jar!/org/apache/ivy/core/settings';
+    
+        cur['ivy.settings.dir.url.ivy.instance'] = 'jar:file:/usr/share/ant/lib/ivy-2.5.1.jar!/org/apache/ivy/core/settings';
+    
+        cur['ivy.settings.file'] = 'ivysettings.xml';
+    
+        cur['ivy.settings.file.ivy.instance'] = 'ivysettings.xml';
+    
+        cur['ivy.settings.url'] = 'jar:file:/usr/share/ant/lib/ivy-2.5.1.jar!/org/apache/ivy/core/settings/ivysettings.xml';
+    
+        cur['ivy.settings.url.ivy.instance'] = 'jar:file:/usr/share/ant/lib/ivy-2.5.1.jar!/org/apache/ivy/core/settings/ivysettings.xml';
+    
+        cur['ivy.shared.default.artifact.pattern'] = '[organisation]/[module]/[revision]/[type]s/[artifact].[ext]';
+    
+        cur['ivy.shared.default.artifact.pattern.ivy.instance'] = '[organisation]/[module]/[revision]/[type]s/[artifact].[ext]';
+    
+        cur['ivy.shared.default.ivy.pattern'] = '[organisation]/[module]/[revision]/[type]s/[artifact].[ext]';
+    
+        cur['ivy.shared.default.ivy.pattern.ivy.instance'] = '[organisation]/[module]/[revision]/[type]s/[artifact].[ext]';
+    
+        cur['ivy.shared.default.root'] = '/home/egor/.ivy2/shared';
+    
+        cur['ivy.shared.default.root.ivy.instance'] = '/home/egor/.ivy2/shared';
+    
+        cur['ivy.status'] = 'integration';
+    
+        cur['ivy.status.ivy.instance'] = 'integration';
+    
+        cur['ivy.version'] = '2.5.1';
+    
+        cur['java.class.path'] = '/usr/share/ant/lib/ant-launcher.jar:/usr/share/ant/lib/ant-apache-log4j.jar:/usr/share/ant/lib/ivy-2.5.1.jar:/usr/share/ant/lib/ant-apache-bsf.jar:/usr/share/ant/lib/svnkit.jar:/usr/share/ant/lib/ant-apache-regexp.jar:/usr/share/ant/lib/jsch.jar:/usr/share/ant/lib/ant.jar:/usr/share/ant/lib/ant-apache-bcel.jar:/usr/share/ant/lib/ant-apache-resolver.jar:/usr/share/ant/lib/bcel.jar:/usr/share/ant/lib/ant-testutil.jar:/usr/share/ant/lib/ant-commons-logging.jar:/usr/share/ant/lib/ant-junit.jar:/usr/share/ant/lib/ant-antlr.jar:/usr/share/ant/lib/ant-jmf.jar:/usr/share/ant/lib/svnClientAdapter.jar:/usr/share/ant/lib/ant-apache-oro.jar:/usr/share/ant/lib/ant-launcher.jar:/usr/share/ant/lib/ant-apache-xalan2.jar:/usr/share/ant/lib/ant-jsch.jar:/usr/share/ant/lib/ant-javamail.jar:/usr/share/ant/lib/svnant.jar:/usr/share/ant/lib/ant-junit4.jar:/usr/share/ant/lib/ant-contrib.jar:/usr/share/ant/lib/ant-jdepend.jar:/usr/share/ant/lib/ant-swing.jar:/usr/share/ant/lib/ant-contrib-0.3.jar:/usr/share/ant/lib/ant-xz.jar:/usr/share/ant/lib/ant-commons-net.jar:/usr/share/ant/lib/svnjavahl.jar';
+    
+        cur['java.class.path.ivy.instance'] = '/usr/share/ant/lib/ant-launcher.jar:/usr/share/ant/lib/ant-apache-log4j.jar:/usr/share/ant/lib/ivy-2.5.1.jar:/usr/share/ant/lib/ant-apache-bsf.jar:/usr/share/ant/lib/svnkit.jar:/usr/share/ant/lib/ant-apache-regexp.jar:/usr/share/ant/lib/jsch.jar:/usr/share/ant/lib/ant.jar:/usr/share/ant/lib/ant-apache-bcel.jar:/usr/share/ant/lib/ant-apache-resolver.jar:/usr/share/ant/lib/bcel.jar:/usr/share/ant/lib/ant-testutil.jar:/usr/share/ant/lib/ant-commons-logging.jar:/usr/share/ant/lib/ant-junit.jar:/usr/share/ant/lib/ant-antlr.jar:/usr/share/ant/lib/ant-jmf.jar:/usr/share/ant/lib/svnClientAdapter.jar:/usr/share/ant/lib/ant-apache-oro.jar:/usr/share/ant/lib/ant-launcher.jar:/usr/share/ant/lib/ant-apache-xalan2.jar:/usr/share/ant/lib/ant-jsch.jar:/usr/share/ant/lib/ant-javamail.jar:/usr/share/ant/lib/svnant.jar:/usr/share/ant/lib/ant-junit4.jar:/usr/share/ant/lib/ant-contrib.jar:/usr/share/ant/lib/ant-jdepend.jar:/usr/share/ant/lib/ant-swing.jar:/usr/share/ant/lib/ant-contrib-0.3.jar:/usr/share/ant/lib/ant-xz.jar:/usr/share/ant/lib/ant-commons-net.jar:/usr/share/ant/lib/svnjavahl.jar';
+    
+        cur['java.class.version'] = '61.0';
+    
+        cur['java.class.version.ivy.instance'] = '61.0';
+    
+        cur['java.home'] = '/usr/lib/jvm/java-17-openjdk-amd64';
+    
+        cur['java.home.ivy.instance'] = '/usr/lib/jvm/java-17-openjdk-amd64';
+    
+        cur['java.io.tmpdir'] = '/tmp';
+    
+        cur['java.io.tmpdir.ivy.instance'] = '/tmp';
+    
+        cur['java.library.path'] = '/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib';
+    
+        cur['java.library.path.ivy.instance'] = '/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib';
+    
+        cur['java.runtime.name'] = 'OpenJDK Runtime Environment';
+    
+        cur['java.runtime.name.ivy.instance'] = 'OpenJDK Runtime Environment';
+    
+        cur['java.runtime.version'] = '17.0.6+10-Ubuntu-0ubuntu122.04';
+    
+        cur['java.runtime.version.ivy.instance'] = '17.0.6+10-Ubuntu-0ubuntu122.04';
+    
+        cur['java.specification.name'] = 'Java Platform API Specification';
+    
+        cur['java.specification.name.ivy.instance'] = 'Java Platform API Specification';
+    
+        cur['java.specification.vendor'] = 'Oracle Corporation';
+    
+        cur['java.specification.vendor.ivy.instance'] = 'Oracle Corporation';
+    
+        cur['java.specification.version'] = '17';
+    
+        cur['java.specification.version.ivy.instance'] = '17';
+    
+        cur['java.vendor'] = 'Private Build';
+    
+        cur['java.vendor.ivy.instance'] = 'Private Build';
+    
+        cur['java.vendor.url'] = 'Unknown';
+    
+        cur['java.vendor.url.bug'] = 'Unknown';
+    
+        cur['java.vendor.url.bug.ivy.instance'] = 'Unknown';
+    
+        cur['java.vendor.url.ivy.instance'] = 'Unknown';
+    
+        cur['java.version'] = '17.0.6';
+    
+        cur['java.version.date'] = '2023-01-17';
+    
+        cur['java.version.date.ivy.instance'] = '2023-01-17';
+    
+        cur['java.version.ivy.instance'] = '17.0.6';
+    
+        cur['java.vm.compressedOopsMode'] = 'Zero based';
+    
+        cur['java.vm.compressedOopsMode.ivy.instance'] = 'Zero based';
+    
+        cur['java.vm.info'] = 'mixed mode, sharing';
+    
+        cur['java.vm.info.ivy.instance'] = 'mixed mode, sharing';
+    
+        cur['java.vm.name'] = 'OpenJDK 64-Bit Server VM';
+    
+        cur['java.vm.name.ivy.instance'] = 'OpenJDK 64-Bit Server VM';
+    
+        cur['java.vm.specification.name'] = 'Java Virtual Machine Specification';
+    
+        cur['java.vm.specification.name.ivy.instance'] = 'Java Virtual Machine Specification';
+    
+        cur['java.vm.specification.vendor'] = 'Oracle Corporation';
+    
+        cur['java.vm.specification.vendor.ivy.instance'] = 'Oracle Corporation';
+    
+        cur['java.vm.specification.version'] = '17';
+    
+        cur['java.vm.specification.version.ivy.instance'] = '17';
+    
+        cur['java.vm.vendor'] = 'Private Build';
+    
+        cur['java.vm.vendor.ivy.instance'] = 'Private Build';
+    
+        cur['java.vm.version'] = '17.0.6+10-Ubuntu-0ubuntu122.04';
+    
+        cur['java.vm.version.ivy.instance'] = '17.0.6+10-Ubuntu-0ubuntu122.04';
+    
+        cur['jdk.debug'] = 'release';
+    
+        cur['jdk.debug.ivy.instance'] = 'release';
+    
+        cur['last.revision'] = '24';
+    
+        cur['line.separator'] = '\n';
+    
+        cur['line.separator.ivy.instance'] = '\n';
+    
+        cur['locales.file'] = 'data_ru_Ru.properties';
+    
+        cur['main-class'] = 'com.example.facelets.Main';
+    
+        cur['music.path'] = './aboba.wav';
+    
+        cur['native.encoding'] = 'UTF-8';
+    
+        cur['native.encoding.ivy.instance'] = 'UTF-8';
+    
+        cur['os.arch'] = 'amd64';
+    
+        cur['os.arch.ivy.instance'] = 'amd64';
+    
+        cur['os.name'] = 'Linux';
+    
+        cur['os.name.ivy.instance'] = 'Linux';
+    
+        cur['os.version'] = '5.19.0-41-generic';
+    
+        cur['os.version.ivy.instance'] = '5.19.0-41-generic';
+    
+        cur['path.separator'] = ':';
+    
+        cur['path.separator.ivy.instance'] = ':';
+    
+        cur['project.version'] = '1.0';
+    
+        cur['revision'] = '23';
+    
+        cur['revision.list'] = '------------------------------------------------------------------------r24 | egor | 2023-05-17 02:26:01 +0300 (Ср, 17 мая 2023)------------------------------------------------------------------------';
+    
+        cur['src.dir'] = 'src';
+    
+        cur['sun.arch.data.model'] = '64';
+    
+        cur['sun.arch.data.model.ivy.instance'] = '64';
+    
+        cur['sun.boot.library.path'] = '/usr/lib/jvm/java-17-openjdk-amd64/lib';
+    
+        cur['sun.boot.library.path.ivy.instance'] = '/usr/lib/jvm/java-17-openjdk-amd64/lib';
+    
+        cur['sun.cpu.endian'] = 'little';
+    
+        cur['sun.cpu.endian.ivy.instance'] = 'little';
+    
+        cur['sun.io.unicode.encoding'] = 'UnicodeLittle';
+    
+        cur['sun.io.unicode.encoding.ivy.instance'] = 'UnicodeLittle';
+    
+        cur['sun.java.command'] = 'org.apache.tools.ant.launch.Launcher -cp  history';
+    
+        cur['sun.java.command.ivy.instance'] = 'org.apache.tools.ant.launch.Launcher -cp  history';
+    
+        cur['sun.java.launcher'] = 'SUN_STANDARD';
+    
+        cur['sun.java.launcher.ivy.instance'] = 'SUN_STANDARD';
+    
+        cur['sun.jnu.encoding'] = 'UTF-8';
+    
+        cur['sun.jnu.encoding.ivy.instance'] = 'UTF-8';
+    
+        cur['sun.management.compiler'] = 'HotSpot 64-Bit Tiered Compilers';
+    
+        cur['sun.management.compiler.ivy.instance'] = 'HotSpot 64-Bit Tiered Compilers';
+    
+        cur['sun.stderr.encoding'] = 'UTF-8';
+    
+        cur['sun.stderr.encoding.ivy.instance'] = 'UTF-8';
+    
+        cur['sun.stdout.encoding'] = 'UTF-8';
+    
+        cur['sun.stdout.encoding.ivy.instance'] = 'UTF-8';
+    
+        cur['svn.repo'] = 'file:///var/lib/svn/mispi-svn-3';
+    
+        cur['test.dir'] = 'src/test/java';
+    
+        cur['user.country'] = 'RU';
+    
+        cur['user.country.ivy.instance'] = 'RU';
+    
+        cur['user.dir'] = '/home/egor/mispi-svn-3/trunk/weblab-3';
+    
+        cur['user.dir.ivy.instance'] = '/home/egor/mispi-svn-3/trunk/weblab-3';
+    
+        cur['user.home'] = '/home/egor';
+    
+        cur['user.home.ivy.instance'] = '/home/egor';
+    
+        cur['user.language'] = 'ru';
+    
+        cur['user.language.ivy.instance'] = 'ru';
+    
+        cur['user.name'] = 'egor';
+    
+        cur['user.name.ivy.instance'] = 'egor';
+    
+        cur['user.timezone'] = 'Europe/Moscow';
+    
+        cur['user.timezone.ivy.instance'] = 'Europe/Moscow';
+    
+        cur['zip.file'] = 'revisions.zip';
+    
+        cur['zip.name'] = 'aboba.zip';
+    </script><script type="text/javascript" language="JavaScript">
+        function displayProperties (name) {
+          var win = window.open('','JUnitSystemProperties','scrollbars=1,resizable=1');
+          var doc = win.document;
+          doc.open();
+          doc.write("<html><head><title>Properties of " + name + "</title>");
+          doc.write("<style type=\"text/css\">");
+          doc.write("body {font:normal 68% verdana,arial,helvetica; color:#000000; }");
+          doc.write("table tr td, table tr th { font-size: 68%; }");
+          doc.write("table.properties { border-collapse:collapse; border-left:solid 1 #cccccc; border-top:solid 1 #cccccc; padding:5px; }");
+          doc.write("table.properties th { text-align:left; border-right:solid 1 #cccccc; border-bottom:solid 1 #cccccc; background-color:#eeeeee; }");
+          doc.write("table.properties td { font:normal; text-align:left; border-right:solid 1 #cccccc; border-bottom:solid 1 #cccccc; background-color:#fffffff; }");
+          doc.write("h3 { margin-bottom: 0.5em; font: bold 115% verdana,arial,helvetica }");
+          doc.write("</style>");
+          doc.write("</head><body>");
+          doc.write("<h3>Properties of " + name + "</h3>");
+          doc.write("<div align=\"right\"><a href=\"javascript:window.close();\">Close</a></div>");
+          doc.write("<table class='properties'>");
+          doc.write("<tr><th>Name</th><th>Value</th></tr>");
+          for (prop in TestCases[name]) {
+            doc.write("<tr><th>" + prop + "</th><td>" + TestCases[name][prop] + "</td></tr>");
+          }
+          doc.write("</table>");
+          doc.write("</body></html>");
+          doc.close();
+          win.focus();
+        }
+      
+      </script>
+    </head>
+    <body>
+        <h1>Unit Test Results.</h1>
+        <table width="100%">
+            <tr>
+                <td align="left"></td><td align="right">Designed for use with <a href="https://www.junit.org/">JUnit</a> and <a href="https://ant.apache.org/">Ant</a>.</td>
+            </tr>
+        </table>
+        <hr size="1">
+        <h3>Class com.example.facelets.HitServiceTest</h3>
+        <table class="details" border="0" cellpadding="5" cellspacing="2" width="95%">
+            <tr valign="top">
+                <th width="80%">Name</th><th>Tests</th><th>Errors</th><th>Failures</th><th>Skipped</th><th nowrap>Time(s)</th><th nowrap>Time Stamp</th><th>Host</th>
+            </tr>
+            <tr valign="top" class="Failure">
+                <td><a title="Display all tests" href="3_HitServiceTest.html">HitServiceTest</a></td><td><a title="Display all tests" href="3_HitServiceTest.html">2</a></td><td>0</td><td><a title="Display only failures" href="3_HitServiceTest-fails.html">1</a></td><td>0</td><td>0.017</td><td>2023-05-16T23:26:42</td><td>OMEN-Laptop-15-en0xxx</td>
+            </tr>
+        </table>
+        <h2>Failures</h2>
+        <table class="details" border="0" cellpadding="5" cellspacing="2" width="95%">
+            <tr valign="top">
+                <th>Name</th><th>Status</th><th width="80%">Type</th><th nowrap>Time(s)</th>
+            </tr>
+            <tr valign="top" class="Failure">
+                <td><a name="checkHit__validHit__shouldReturnTrue"></a>checkHit__validHit__shouldReturnTrue</td><td>Failure</td><td>N/A
+                    <br>
+                    <br>
+                    <code>junit.framework.AssertionFailedError
+                        <br>
+                        	at com.example.facelets.HitServiceTest.checkHit__validHit__shouldReturnTrue(Unknown Source)
+                        <br>
+                        	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+                        <br>
+                        	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+                        <br>
+                        	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+                        <br>
+                        	at jdk.internal.reflect.GeneratedMethodAccessor5.invoke(Unknown Source)
+                        <br>
+                        	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+                        <br>
+                        	at jdk.internal.reflect.GeneratedMethodAccessor5.invoke(Unknown Source)
+                        <br>
+                        	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+                        <br>
+                        	at java.base/java.util.Vector.forEach(Vector.java:1365)
+                        <br>
+                        	at jdk.internal.reflect.GeneratedMethodAccessor5.invoke(Unknown Source)
+                        <br>
+                        	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+                        <br>
+                        	at net.sf.antcontrib.logic.ForTask.doSequentialIteration(ForTask.java:259)
+                        <br>
+                        	at net.sf.antcontrib.logic.ForTask.doToken(ForTask.java:268)
+                        <br>
+                        	at net.sf.antcontrib.logic.ForTask.doTheTasks(ForTask.java:308)
+                        <br>
+                        	at net.sf.antcontrib.logic.ForTask.execute(ForTask.java:244)
+                        <br>
+                        	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+                        <br>
+                        	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+                        <br>
+                        	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+                        <br>
+                    </code></td><td>0.002</td>
+            </tr>
+        </table>
+        <div class="Properties">
+            <a href="javascript:displayProperties('com.example.facelets.HitServiceTest');">
+                    Properties &raquo;
+                </a>
+        </div>
+    </body>
+</html>

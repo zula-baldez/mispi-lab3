@@ -1,0 +1,2699 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite errors="0" failures="0" hostname="OMEN-Laptop-15-en0xxx" id="0" name="HitServiceTest" package="com.example.facelets" skipped="0" tests="3" time="0.031" timestamp="2023-05-16T23:49:46">
+      <properties>
+          <property name="sun.boot.library.path.ivy.instance" value="/usr/lib/jvm/java-17-openjdk-amd64/lib" />
+
+          <property name="java.specification.version" value="17" />
+
+          <property name="java.specification.version.ivy.instance" value="17" />
+
+          <property name="sun.cpu.endian.ivy.instance" value="little" />
+
+          <property name="sun.arch.data.model" value="64" />
+
+          <property name="ivy.home" value="/home/egor/.ivy2" />
+
+          <property name="java.vendor.url" value="Unknown" />
+
+          <property name="java.version.ivy.instance" value="17.0.6" />
+
+          <property name="ivy.default.conf.dir.ivy.instance" value="jar:file:/usr/share/ant/lib/ivy-2.5.1.jar!/org/apache/ivy/core/settings" />
+
+          <property name="ivy.conf.dir" value="jar:file:/usr/share/ant/lib/ivy-2.5.1.jar!/org/apache/ivy/core/settings" />
+
+          <property name="sun.boot.library.path" value="/usr/lib/jvm/java-17-openjdk-amd64/lib" />
+
+          <property name="sun.java.command" value="org.apache.tools.ant.launch.Launcher -cp  report" />
+
+          <property name="os.version.ivy.instance" value="5.19.0-41-generic" />
+
+          <property name="ivy.retrieve.pattern.ivy.instance" value="/home/egor/mispi-svn-3/trunk/weblab-3/lib/[artifact]-[revision](-[classifier]).[ext]" />
+
+          <property name="sun.jnu.encoding.ivy.instance" value="UTF-8" />
+
+          <property name="user.dir.ivy.instance" value="/home/egor/mispi-svn-3/trunk/weblab-3" />
+
+          <property name="jdk.debug" value="release" />
+
+          <property name="ivy.revision" value="working@OMEN-Laptop-15-en0xxx" />
+
+          <property name="java.specification.vendor" value="Oracle Corporation" />
+
+          <property name="java.vm.version.ivy.instance" value="17.0.6+10-Ubuntu-0ubuntu122.04" />
+
+          <property name="file.separator.ivy.instance" value="/" />
+
+          <property name="java.version.date" value="2023-01-17" />
+
+          <property name="ascii.ext" value=".properties" />
+
+          <property name="java.home" value="/usr/lib/jvm/java-17-openjdk-amd64" />
+
+          <property name="basedir" value="/home/egor/mispi-svn-3/trunk/weblab-3" />
+
+          <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+
+          <property name="java.specification.name" value="Java Platform API Specification" />
+
+          <property name="user.timezone.ivy.instance" value="Europe/Moscow" />
+
+          <property name="ivy.basedir.ivy.instance" value="/home/egor/mispi-svn-3/trunk/weblab-3" />
+
+          <property name="ivy.resolve.default.type.filter.ivy.instance" value="*" />
+
+          <property name="ivy.default.ivy.user.dir" value="/home/egor/.ivy2" />
+
+          <property name="ivy.lib.dir.ivy.instance" value="/home/egor/mispi-svn-3/trunk/weblab-3/lib" />
+
+          <property name="ivy.cache.dir" value="/home/egor/.ivy2/cache" />
+
+          <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+
+          <property name="java.runtime.version" value="17.0.6+10-Ubuntu-0ubuntu122.04" />
+
+          <property name="java.runtime.name.ivy.instance" value="OpenJDK Runtime Environment" />
+
+          <property name="sun.io.unicode.encoding.ivy.instance" value="UnicodeLittle" />
+
+          <property name="basedir.ivy.instance" value="/home/egor/mispi-svn-3/trunk/weblab-3" />
+
+          <property name="file.encoding" value="UTF-8" />
+
+          <property name="ivy.dep.file" value="ivy.xml" />
+
+          <property name="user.language.ivy.instance" value="ru" />
+
+          <property name="os.name.ivy.instance" value="Linux" />
+
+          <property name="ivy.settings.file" value="ivysettings.xml" />
+
+          <property name="java.vm.specification.version.ivy.instance" value="17" />
+
+          <property name="ivy.local.default.ivy.pattern" value="[organisation]/[module]/[revision]/[type]s/[artifact].[ext]" />
+
+          <property name="java.vendor.url.ivy.instance" value="Unknown" />
+
+          <property name="line.separator.ivy.instance" value="&#xa;" />
+
+          <property name="flg" value="false" />
+
+          <property name="java.io.tmpdir" value="/tmp" />
+
+          <property name="java.version" value="17.0.6" />
+
+          <property name="ivy.resolved.file" value="/home/egor/mispi-svn-3/trunk/weblab-3/ivy.xml" />
+
+          <property name="java.vm.specification.name.ivy.instance" value="Java Virtual Machine Specification" />
+
+          <property name="ivy.settings.dir.ivy.instance" value="jar:file:/usr/share/ant/lib/ivy-2.5.1.jar!/org/apache/ivy/core/settings" />
+
+          <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+
+          <property name="file.encoding.ivy.instance" value="UTF-8" />
+
+          <property name="ivy.deliver.ivy.pattern" value="/home/egor/mispi-svn-3/trunk/weblab-3/distrib/[type]s/[artifact]-[revision](-[classifier]).[ext]" />
+
+          <property name="native.encoding" value="UTF-8" />
+
+          <property name="ivy.status" value="integration" />
+
+          <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib" />
+
+          <property name="java.vendor" value="Private Build" />
+
+          <property name="ant.file.weblab-3" value="/home/egor/mispi-svn-3/trunk/weblab-3/build.xml" />
+
+          <property name="sun.arch.data.model.ivy.instance" value="64" />
+
+          <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+
+          <property name="ivy.default.ivy.user.dir.ivy.instance" value="/home/egor/.ivy2" />
+
+          <property name="ant.file.type" value="file" />
+
+          <property name="music.path" value="./aboba.wav" />
+
+          <property name="ivy.parents.count" value="0" />
+
+          <property name="ivy.configurations.ivy.instance" value="*" />
+
+          <property name="java.io.tmpdir.ivy.instance" value="/tmp" />
+
+          <property name="java.version.date.ivy.instance" value="2023-01-17" />
+
+          <property name="ivy.default.settings.dir.ivy.instance" value="jar:file:/usr/share/ant/lib/ivy-2.5.1.jar!/org/apache/ivy/core/settings" />
+
+          <property name="ivy.shared.default.root" value="/home/egor/.ivy2/shared" />
+
+          <property name="ivy.shared.default.ivy.pattern" value="[organisation]/[module]/[revision]/[type]s/[artifact].[ext]" />
+
+          <property name="ivy.shared.default.ivy.pattern.ivy.instance" value="[organisation]/[module]/[revision]/[type]s/[artifact].[ext]" />
+
+          <property name="user.timezone" value="Europe/Moscow" />
+
+          <property name="java.vm.specification.version" value="17" />
+
+          <property name="os.name" value="Linux" />
+
+          <property name="ivy.deps.changed" value="false" />
+
+          <property name="ivy.lib.dir" value="/home/egor/mispi-svn-3/trunk/weblab-3/lib" />
+
+          <property name="zip.name" value="aboba.zip" />
+
+          <property name="test.dir" value="src/test/java" />
+
+          <property name="user.home" value="/home/egor" />
+
+          <property name="sun.java.command.ivy.instance" value="org.apache.tools.ant.launch.Launcher -cp  report" />
+
+          <property name="java.class.path.ivy.instance" value="/usr/share/ant/lib/ant-launcher.jar:/usr/share/ant/lib/ant-apache-log4j.jar:/usr/share/ant/lib/ivy-2.5.1.jar:/usr/share/ant/lib/ant-apache-bsf.jar:/usr/share/ant/lib/svnkit.jar:/usr/share/ant/lib/ant-apache-regexp.jar:/usr/share/ant/lib/jsch.jar:/usr/share/ant/lib/ant.jar:/usr/share/ant/lib/ant-apache-bcel.jar:/usr/share/ant/lib/ant-apache-resolver.jar:/usr/share/ant/lib/bcel.jar:/usr/share/ant/lib/ant-testutil.jar:/usr/share/ant/lib/ant-commons-logging.jar:/usr/share/ant/lib/ant-junit.jar:/usr/share/ant/lib/ant-antlr.jar:/usr/share/ant/lib/ant-jmf.jar:/usr/share/ant/lib/svnClientAdapter.jar:/usr/share/ant/lib/ant-apache-oro.jar:/usr/share/ant/lib/ant-launcher.jar:/usr/share/ant/lib/ant-apache-xalan2.jar:/usr/share/ant/lib/ant-jsch.jar:/usr/share/ant/lib/ant-javamail.jar:/usr/share/ant/lib/svnant.jar:/usr/share/ant/lib/ant-junit4.jar:/usr/share/ant/lib/ant-contrib.jar:/usr/share/ant/lib/ant-jdepend.jar:/usr/share/ant/lib/ant-swing.jar:/usr/share/ant/lib/ant-contrib-0.3.jar:/usr/share/ant/lib/ant-xz.jar:/usr/share/ant/lib/ant-commons-net.jar:/usr/share/ant/lib/svnjavahl.jar" />
+
+          <property name="ivy.publish.src.artifacts.pattern.ivy.instance" value="/home/egor/mispi-svn-3/trunk/weblab-3/distrib/[type]s/[artifact]-[revision](-[classifier]).[ext]" />
+
+          <property name="ivy.checksums" value="sha1,md5" />
+
+          <property name="ivy.default.settings.dir" value="jar:file:/usr/share/ant/lib/ivy-2.5.1.jar!/org/apache/ivy/core/settings" />
+
+          <property name="ivy.version" value="2.5.1" />
+
+          <property name="java.vm.info.ivy.instance" value="mixed mode, sharing" />
+
+          <property name="ivy.distrib.dir" value="/home/egor/mispi-svn-3/trunk/weblab-3/distrib" />
+
+          <property name="ant.library.dir.ivy.instance" value="/usr/share/ant/lib" />
+
+          <property name="ivy.settings.url.ivy.instance" value="jar:file:/usr/share/ant/lib/ivy-2.5.1.jar!/org/apache/ivy/core/settings/ivysettings.xml" />
+
+          <property name="ivy.project.dir" value="/home/egor/mispi-svn-3/trunk/weblab-3" />
+
+          <property name="ant.file" value="/home/egor/mispi-svn-3/trunk/weblab-3/build.xml" />
+
+          <property name="path.separator" value=":" />
+
+          <property name="os.version" value="5.19.0-41-generic" />
+
+          <property name="ivy.default.always.check.exact.revision.ivy.instance" value="false" />
+
+          <property name="java.vm.name" value="OpenJDK 64-Bit Server VM" />
+
+          <property name="ivy.buildlist.ivyfilepath" value="ivy.xml" />
+
+          <property name="os.arch" value="amd64" />
+
+          <property name="ivy.settings.dir.url.ivy.instance" value="jar:file:/usr/share/ant/lib/ivy-2.5.1.jar!/org/apache/ivy/core/settings" />
+
+          <property name="ivy.shared.default.root.ivy.instance" value="/home/egor/.ivy2/shared" />
+
+          <property name="ivy.deliver.ivy.pattern.ivy.instance" value="/home/egor/mispi-svn-3/trunk/weblab-3/distrib/[type]s/[artifact]-[revision](-[classifier]).[ext]" />
+
+          <property name="java.vm.info" value="mixed mode, sharing" />
+
+          <property name="ivy.conf.dir.ivy.instance" value="jar:file:/usr/share/ant/lib/ivy-2.5.1.jar!/org/apache/ivy/core/settings" />
+
+          <property name="user.country.ivy.instance" value="RU" />
+
+          <property name="java.class.version" value="61.0" />
+
+          <property name="src.dir" value="src" />
+
+          <property name="ant.project.default-target" value="build" />
+
+          <property name="ant.library.dir" value="/usr/share/ant/lib" />
+
+          <property name="ivy.cache.dir.ivy.instance" value="/home/egor/.ivy2/cache" />
+
+          <property name="ant.project.name" value="weblab-3" />
+
+          <property name="jdk.debug.ivy.instance" value="release" />
+
+          <property name="sun.jnu.encoding" value="UTF-8" />
+
+          <property name="java.specification.name.ivy.instance" value="Java Platform API Specification" />
+
+          <property name="ivy.settings.file.ivy.instance" value="ivysettings.xml" />
+
+          <property name="ivy.default.conf.dir" value="jar:file:/usr/share/ant/lib/ivy-2.5.1.jar!/org/apache/ivy/core/settings" />
+
+          <property name="java.runtime.version.ivy.instance" value="17.0.6+10-Ubuntu-0ubuntu122.04" />
+
+          <property name="java.vm.specification.vendor.ivy.instance" value="Oracle Corporation" />
+
+          <property name="ivy.local.default.artifact.pattern.ivy.instance" value="[organisation]/[module]/[revision]/[type]s/[artifact].[ext]" />
+
+          <property name="ivy.build.artifacts.dir.ivy.instance" value="/home/egor/mispi-svn-3/trunk/weblab-3/build/artifacts" />
+
+          <property name="ivy.settings.dir" value="jar:file:/usr/share/ant/lib/ivy-2.5.1.jar!/org/apache/ivy/core/settings" />
+
+          <property name="sun.java.launcher.ivy.instance" value="SUN_STANDARD" />
+
+          <property name="ivy.local.default.root.ivy.instance" value="/home/egor/.ivy2/local" />
+
+          <property name="ivy.local.default.artifact.pattern" value="[organisation]/[module]/[revision]/[type]s/[artifact].[ext]" />
+
+          <property name="java.class.version.ivy.instance" value="61.0" />
+
+          <property name="sun.stderr.encoding" value="UTF-8" />
+
+          <property name="ivy.resolve.default.type.filter" value="*" />
+
+          <property name="sun.management.compiler.ivy.instance" value="HotSpot 64-Bit Tiered Compilers" />
+
+          <property name="ivy.cache.ttl.default.ivy.instance" value="10s" />
+
+          <property name="project.version" value="1.0" />
+
+          <property name="file.separator" value="/" />
+
+          <property name="java.vm.compressedOopsMode" value="Zero based" />
+
+          <property name="ivy.settings.dir.url" value="jar:file:/usr/share/ant/lib/ivy-2.5.1.jar!/org/apache/ivy/core/settings" />
+
+          <property name="ivy.dep.file.ivy.instance" value="ivy.xml" />
+
+          <property name="line.separator" value="&#xa;" />
+
+          <property name="sun.stdout.encoding" value="UTF-8" />
+
+          <property name="ivy.organisation" value="com.tutorialspoint" />
+
+          <property name="ivy.buildlist.ivyfilepath.ivy.instance" value="ivy.xml" />
+
+          <property name="java.vm.compressedOopsMode.ivy.instance" value="Zero based" />
+
+          <property name="user.name" value="egor" />
+
+          <property name="sun.stderr.encoding.ivy.instance" value="UTF-8" />
+
+          <property name="ivy.publish.src.artifacts.pattern" value="/home/egor/mispi-svn-3/trunk/weblab-3/distrib/[type]s/[artifact]-[revision](-[classifier]).[ext]" />
+
+          <property name="ant.file.type.weblab-3" value="file" />
+
+          <property name="build.dir" value="build" />
+
+          <property name="dir.diff" value="src" />
+
+          <property name="file.name" value="aboba.txt" />
+
+          <property name="ant.home" value="/usr/share/ant" />
+
+          <property name="ivy.module" value="com" />
+
+          <property name="ant.version" value="Apache Ant(TM) version 1.10.12 compiled on January 17 1970" />
+
+          <property name="ivy.report.output.pattern" value="[organisation]-[module]-[conf].[ext]" />
+
+          <property name="ivy.log.modules.in.use" value="false" />
+
+          <property name="ivy.conf.url.ivy.instance" value="jar:file:/usr/share/ant/lib/ivy-2.5.1.jar!/org/apache/ivy/core/settings/ivysettings.xml" />
+
+          <property name="classes.dir" value="build/classes" />
+
+          <property name="os.arch.ivy.instance" value="amd64" />
+
+          <property name="java.library.path.ivy.instance" value="/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib" />
+
+          <property name="ivy.shared.default.artifact.pattern.ivy.instance" value="[organisation]/[module]/[revision]/[type]s/[artifact].[ext]" />
+
+          <property name="user.home.ivy.instance" value="/home/egor" />
+
+          <property name="java.vendor.url.bug.ivy.instance" value="Unknown" />
+
+          <property name="ivy.local.default.root" value="/home/egor/.ivy2/local" />
+
+          <property name="java.class.path" value="/usr/share/ant/lib/ant-launcher.jar:/usr/share/ant/lib/ant-apache-log4j.jar:/usr/share/ant/lib/ivy-2.5.1.jar:/usr/share/ant/lib/ant-apache-bsf.jar:/usr/share/ant/lib/svnkit.jar:/usr/share/ant/lib/ant-apache-regexp.jar:/usr/share/ant/lib/jsch.jar:/usr/share/ant/lib/ant.jar:/usr/share/ant/lib/ant-apache-bcel.jar:/usr/share/ant/lib/ant-apache-resolver.jar:/usr/share/ant/lib/bcel.jar:/usr/share/ant/lib/ant-testutil.jar:/usr/share/ant/lib/ant-commons-logging.jar:/usr/share/ant/lib/ant-junit.jar:/usr/share/ant/lib/ant-antlr.jar:/usr/share/ant/lib/ant-jmf.jar:/usr/share/ant/lib/svnClientAdapter.jar:/usr/share/ant/lib/ant-apache-oro.jar:/usr/share/ant/lib/ant-launcher.jar:/usr/share/ant/lib/ant-apache-xalan2.jar:/usr/share/ant/lib/ant-jsch.jar:/usr/share/ant/lib/ant-javamail.jar:/usr/share/ant/lib/svnant.jar:/usr/share/ant/lib/ant-junit4.jar:/usr/share/ant/lib/ant-contrib.jar:/usr/share/ant/lib/ant-jdepend.jar:/usr/share/ant/lib/ant-swing.jar:/usr/share/ant/lib/ant-contrib-0.3.jar:/usr/share/ant/lib/ant-xz.jar:/usr/share/ant/lib/ant-commons-net.jar:/usr/share/ant/lib/svnjavahl.jar" />
+
+          <property name="java.vm.vendor" value="Private Build" />
+
+          <property name="java.vendor.ivy.instance" value="Private Build" />
+
+          <property name="main-class" value="com.example.facelets.Main" />
+
+          <property name="ivy.project.dir.ivy.instance" value="/home/egor/mispi-svn-3/trunk/weblab-3" />
+
+          <property name="ivy.status.ivy.instance" value="integration" />
+
+          <property name="sun.java.launcher" value="SUN_STANDARD" />
+
+          <property name="user.country" value="RU" />
+
+          <property name="ivy.retrieve.pattern" value="/home/egor/mispi-svn-3/trunk/weblab-3/lib/[artifact]-[revision](-[classifier]).[ext]" />
+
+          <property name="sun.cpu.endian" value="little" />
+
+          <property name="ivy.checksums.ivy.instance" value="sha1,md5" />
+
+          <property name="user.language" value="ru" />
+
+          <property name="ivy.home.ivy.instance" value="/home/egor/.ivy2" />
+
+          <property name="user.name.ivy.instance" value="egor" />
+
+          <property name="svn.repo" value="file:///var/lib/svn/mispi-svn-3" />
+
+          <property name="native.encoding.ivy.instance" value="UTF-8" />
+
+          <property name="ant.java.version" value="17" />
+
+          <property name="ivy.basedir" value="/home/egor/mispi-svn-3/trunk/weblab-3" />
+
+          <property name="java.vm.vendor.ivy.instance" value="Private Build" />
+
+          <property name="ant.home.ivy.instance" value="/usr/share/ant" />
+
+          <property name="zip.file" value="revisions.zip" />
+
+          <property name="ivy.cache.ttl.default" value="10s" />
+
+          <property name="java.vm.name.ivy.instance" value="OpenJDK 64-Bit Server VM" />
+
+          <property name="ivy.resolver.default.check.modified.ivy.instance" value="false" />
+
+          <property name="java.specification.vendor.ivy.instance" value="Oracle Corporation" />
+
+          <property name="ivy.configurations" value="*" />
+
+          <property name="locales.file" value="data_ru_Ru.properties" />
+
+          <property name="ivy.default.always.check.exact.revision" value="false" />
+
+          <property name="java.runtime.name" value="OpenJDK Runtime Environment" />
+
+          <property name="ivy.distrib.dir.ivy.instance" value="/home/egor/mispi-svn-3/trunk/weblab-3/distrib" />
+
+          <property name="ant.project.invoked-targets" value="test" />
+
+          <property name="report.dir" value="reports" />
+
+          <property name="ant.core.lib" value="/usr/share/ant/lib/ant.jar" />
+
+          <property name="sun.stdout.encoding.ivy.instance" value="UTF-8" />
+
+          <property name="java.vendor.url.bug" value="Unknown" />
+
+          <property name="user.dir" value="/home/egor/mispi-svn-3/trunk/weblab-3" />
+
+          <property name="ascii.dest" value="./ascii" />
+
+          <property name="path.separator.ivy.instance" value=":" />
+
+          <property name="ivy.local.default.ivy.pattern.ivy.instance" value="[organisation]/[module]/[revision]/[type]s/[artifact].[ext]" />
+
+          <property name="ivy.report.output.pattern.ivy.instance" value="[organisation]-[module]-[conf].[ext]" />
+
+          <property name="java.vm.version" value="17.0.6+10-Ubuntu-0ubuntu122.04" />
+
+          <property name="ivy.log.modules.in.use.ivy.instance" value="false" />
+
+          <property name="ivy.resolver.default.check.modified" value="false" />
+
+          <property name="java.home.ivy.instance" value="/usr/lib/jvm/java-17-openjdk-amd64" />
+
+          <property name="ivy.shared.default.artifact.pattern" value="[organisation]/[module]/[revision]/[type]s/[artifact].[ext]" />
+
+          <property name="ivy.settings.url" value="jar:file:/usr/share/ant/lib/ivy-2.5.1.jar!/org/apache/ivy/core/settings/ivysettings.xml" />
+
+          <property name="ivy.build.artifacts.dir" value="/home/egor/mispi-svn-3/trunk/weblab-3/build/artifacts" />
+
+          <property name="ivy.resolved.configurations" value="default" />
+
+          <property name="ivy.conf.url" value="jar:file:/usr/share/ant/lib/ivy-2.5.1.jar!/org/apache/ivy/core/settings/ivysettings.xml" />
+
+      </properties>
+
+      <testcase classname="com.example.facelets.HitServiceTest" name="checkHit__missedHit__shouldReturnFalse" time="0.003" />
+
+      <testcase classname="com.example.facelets.HitServiceTest" name="checkHit__validHit__shouldReturnTrue" time="0.0" />
+
+      <testcase classname="com.example.facelets.HitServiceTest" name="aboba" time="0.0" />
+
+      <system-out><![CDATA[]]></system-out>
+
+      <system-err><![CDATA[]]></system-err>
+
+  </testsuite>
+  <testsuite errors="1" failures="0" hostname="OMEN-Laptop-15-en0xxx" id="1" name="AttemptHitterTest" package="java.com.example.facelets" skipped="0" tests="1" time="0.0" timestamp="2023-05-16T22:12:43">
+      <properties>
+          <property name="sun.boot.library.path.ivy.instance" value="/usr/lib/jvm/java-17-openjdk-amd64/lib" />
+
+          <property name="java.specification.version" value="17" />
+
+          <property name="java.specification.version.ivy.instance" value="17" />
+
+          <property name="sun.cpu.endian.ivy.instance" value="little" />
+
+          <property name="sun.arch.data.model" value="64" />
+
+          <property name="ivy.home" value="/home/egor/.ivy2" />
+
+          <property name="java.vendor.url" value="Unknown" />
+
+          <property name="java.version.ivy.instance" value="17.0.6" />
+
+          <property name="ivy.default.conf.dir.ivy.instance" value="jar:file:/usr/share/ant/lib/ivy-2.5.1.jar!/org/apache/ivy/core/settings" />
+
+          <property name="ivy.conf.dir" value="jar:file:/usr/share/ant/lib/ivy-2.5.1.jar!/org/apache/ivy/core/settings" />
+
+          <property name="sun.boot.library.path" value="/usr/lib/jvm/java-17-openjdk-amd64/lib" />
+
+          <property name="sun.java.command" value="org.apache.tools.ant.launch.Launcher -cp  history" />
+
+          <property name="os.version.ivy.instance" value="5.19.0-41-generic" />
+
+          <property name="ivy.retrieve.pattern.ivy.instance" value="/home/egor/mispi-svn-3/trunk/weblab-3/lib/[artifact]-[revision](-[classifier]).[ext]" />
+
+          <property name="sun.jnu.encoding.ivy.instance" value="UTF-8" />
+
+          <property name="user.dir.ivy.instance" value="/home/egor/mispi-svn-3/trunk/weblab-3" />
+
+          <property name="jdk.debug" value="release" />
+
+          <property name="ivy.revision" value="working@OMEN-Laptop-15-en0xxx" />
+
+          <property name="java.specification.vendor" value="Oracle Corporation" />
+
+          <property name="java.vm.version.ivy.instance" value="17.0.6+10-Ubuntu-0ubuntu122.04" />
+
+          <property name="file.separator.ivy.instance" value="/" />
+
+          <property name="java.version.date" value="2023-01-17" />
+
+          <property name="ascii.ext" value=".properties" />
+
+          <property name="java.home" value="/usr/lib/jvm/java-17-openjdk-amd64" />
+
+          <property name="basedir" value="/home/egor/mispi-svn-3/trunk/weblab-3" />
+
+          <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+
+          <property name="java.specification.name" value="Java Platform API Specification" />
+
+          <property name="user.timezone.ivy.instance" value="Europe/Moscow" />
+
+          <property name="ivy.resolve.default.type.filter.ivy.instance" value="*" />
+
+          <property name="ivy.basedir.ivy.instance" value="/home/egor/mispi-svn-3/trunk/weblab-3" />
+
+          <property name="ivy.default.ivy.user.dir" value="/home/egor/.ivy2" />
+
+          <property name="ivy.lib.dir.ivy.instance" value="/home/egor/mispi-svn-3/trunk/weblab-3/lib" />
+
+          <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+
+          <property name="ivy.cache.dir" value="/home/egor/.ivy2/cache" />
+
+          <property name="java.runtime.version" value="17.0.6+10-Ubuntu-0ubuntu122.04" />
+
+          <property name="java.runtime.name.ivy.instance" value="OpenJDK Runtime Environment" />
+
+          <property name="sun.io.unicode.encoding.ivy.instance" value="UnicodeLittle" />
+
+          <property name="basedir.ivy.instance" value="/home/egor/mispi-svn-3/trunk/weblab-3" />
+
+          <property name="file.encoding" value="UTF-8" />
+
+          <property name="ivy.dep.file" value="ivy.xml" />
+
+          <property name="os.name.ivy.instance" value="Linux" />
+
+          <property name="user.language.ivy.instance" value="ru" />
+
+          <property name="ivy.settings.file" value="ivysettings.xml" />
+
+          <property name="java.vm.specification.version.ivy.instance" value="17" />
+
+          <property name="ivy.local.default.ivy.pattern" value="[organisation]/[module]/[revision]/[type]s/[artifact].[ext]" />
+
+          <property name="java.vendor.url.ivy.instance" value="Unknown" />
+
+          <property name="line.separator.ivy.instance" value="&#xa;" />
+
+          <property name="flg" value="false" />
+
+          <property name="java.io.tmpdir" value="/tmp" />
+
+          <property name="java.version" value="17.0.6" />
+
+          <property name="ivy.resolved.file" value="/home/egor/mispi-svn-3/trunk/weblab-3/ivy.xml" />
+
+          <property name="java.vm.specification.name.ivy.instance" value="Java Virtual Machine Specification" />
+
+          <property name="ivy.settings.dir.ivy.instance" value="jar:file:/usr/share/ant/lib/ivy-2.5.1.jar!/org/apache/ivy/core/settings" />
+
+          <property name="last.revision" value="13" />
+
+          <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+
+          <property name="file.encoding.ivy.instance" value="UTF-8" />
+
+          <property name="ivy.deliver.ivy.pattern" value="/home/egor/mispi-svn-3/trunk/weblab-3/distrib/[type]s/[artifact]-[revision](-[classifier]).[ext]" />
+
+          <property name="ivy.status" value="integration" />
+
+          <property name="native.encoding" value="UTF-8" />
+
+          <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib" />
+
+          <property name="java.vendor" value="Private Build" />
+
+          <property name="ant.file.weblab-3" value="/home/egor/mispi-svn-3/trunk/weblab-3/build.xml" />
+
+          <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+
+          <property name="sun.arch.data.model.ivy.instance" value="64" />
+
+          <property name="ivy.default.ivy.user.dir.ivy.instance" value="/home/egor/.ivy2" />
+
+          <property name="ant.file.type" value="file" />
+
+          <property name="music.path" value="./aboba.wav" />
+
+          <property name="ivy.parents.count" value="0" />
+
+          <property name="ivy.configurations.ivy.instance" value="*" />
+
+          <property name="java.io.tmpdir.ivy.instance" value="/tmp" />
+
+          <property name="java.version.date.ivy.instance" value="2023-01-17" />
+
+          <property name="ivy.default.settings.dir.ivy.instance" value="jar:file:/usr/share/ant/lib/ivy-2.5.1.jar!/org/apache/ivy/core/settings" />
+
+          <property name="ivy.shared.default.root" value="/home/egor/.ivy2/shared" />
+
+          <property name="ivy.shared.default.ivy.pattern" value="[organisation]/[module]/[revision]/[type]s/[artifact].[ext]" />
+
+          <property name="ivy.shared.default.ivy.pattern.ivy.instance" value="[organisation]/[module]/[revision]/[type]s/[artifact].[ext]" />
+
+          <property name="user.timezone" value="Europe/Moscow" />
+
+          <property name="java.vm.specification.version" value="17" />
+
+          <property name="os.name" value="Linux" />
+
+          <property name="ivy.deps.changed" value="false" />
+
+          <property name="ivy.lib.dir" value="/home/egor/mispi-svn-3/trunk/weblab-3/lib" />
+
+          <property name="zip.name" value="aboba.zip" />
+
+          <property name="test.dir" value="history/trunk/weblab-3/src/test" />
+
+          <property name="user.home" value="/home/egor" />
+
+          <property name="sun.java.command.ivy.instance" value="org.apache.tools.ant.launch.Launcher -cp  history" />
+
+          <property name="java.class.path.ivy.instance" value="/usr/share/ant/lib/ant-launcher.jar:/usr/share/ant/lib/ant-apache-log4j.jar:/usr/share/ant/lib/ivy-2.5.1.jar:/usr/share/ant/lib/ant-apache-bsf.jar:/usr/share/ant/lib/svnkit.jar:/usr/share/ant/lib/ant-apache-regexp.jar:/usr/share/ant/lib/jsch.jar:/usr/share/ant/lib/ant.jar:/usr/share/ant/lib/ant-apache-bcel.jar:/usr/share/ant/lib/ant-apache-resolver.jar:/usr/share/ant/lib/bcel.jar:/usr/share/ant/lib/ant-testutil.jar:/usr/share/ant/lib/ant-commons-logging.jar:/usr/share/ant/lib/ant-junit.jar:/usr/share/ant/lib/ant-antlr.jar:/usr/share/ant/lib/ant-jmf.jar:/usr/share/ant/lib/svnClientAdapter.jar:/usr/share/ant/lib/ant-apache-oro.jar:/usr/share/ant/lib/ant-launcher.jar:/usr/share/ant/lib/ant-apache-xalan2.jar:/usr/share/ant/lib/ant-jsch.jar:/usr/share/ant/lib/ant-javamail.jar:/usr/share/ant/lib/svnant.jar:/usr/share/ant/lib/ant-junit4.jar:/usr/share/ant/lib/ant-contrib.jar:/usr/share/ant/lib/ant-jdepend.jar:/usr/share/ant/lib/ant-swing.jar:/usr/share/ant/lib/ant-contrib-0.3.jar:/usr/share/ant/lib/ant-xz.jar:/usr/share/ant/lib/ant-commons-net.jar:/usr/share/ant/lib/svnjavahl.jar" />
+
+          <property name="ivy.publish.src.artifacts.pattern.ivy.instance" value="/home/egor/mispi-svn-3/trunk/weblab-3/distrib/[type]s/[artifact]-[revision](-[classifier]).[ext]" />
+
+          <property name="ivy.checksums" value="sha1,md5" />
+
+          <property name="ivy.default.settings.dir" value="jar:file:/usr/share/ant/lib/ivy-2.5.1.jar!/org/apache/ivy/core/settings" />
+
+          <property name="ivy.version" value="2.5.1" />
+
+          <property name="java.vm.info.ivy.instance" value="mixed mode, sharing" />
+
+          <property name="ivy.distrib.dir" value="/home/egor/mispi-svn-3/trunk/weblab-3/distrib" />
+
+          <property name="ant.library.dir.ivy.instance" value="/usr/share/ant/lib" />
+
+          <property name="ivy.settings.url.ivy.instance" value="jar:file:/usr/share/ant/lib/ivy-2.5.1.jar!/org/apache/ivy/core/settings/ivysettings.xml" />
+
+          <property name="ivy.project.dir" value="/home/egor/mispi-svn-3/trunk/weblab-3" />
+
+          <property name="ant.file" value="/home/egor/mispi-svn-3/trunk/weblab-3/build.xml" />
+
+          <property name="path.separator" value=":" />
+
+          <property name="os.version" value="5.19.0-41-generic" />
+
+          <property name="ivy.default.always.check.exact.revision.ivy.instance" value="false" />
+
+          <property name="java.vm.name" value="OpenJDK 64-Bit Server VM" />
+
+          <property name="ivy.buildlist.ivyfilepath" value="ivy.xml" />
+
+          <property name="os.arch" value="amd64" />
+
+          <property name="ivy.settings.dir.url.ivy.instance" value="jar:file:/usr/share/ant/lib/ivy-2.5.1.jar!/org/apache/ivy/core/settings" />
+
+          <property name="ivy.shared.default.root.ivy.instance" value="/home/egor/.ivy2/shared" />
+
+          <property name="ivy.deliver.ivy.pattern.ivy.instance" value="/home/egor/mispi-svn-3/trunk/weblab-3/distrib/[type]s/[artifact]-[revision](-[classifier]).[ext]" />
+
+          <property name="java.vm.info" value="mixed mode, sharing" />
+
+          <property name="ivy.conf.dir.ivy.instance" value="jar:file:/usr/share/ant/lib/ivy-2.5.1.jar!/org/apache/ivy/core/settings" />
+
+          <property name="user.country.ivy.instance" value="RU" />
+
+          <property name="java.class.version" value="61.0" />
+
+          <property name="src.dir" value="history/trunk/weblab-3/src" />
+
+          <property name="ant.project.default-target" value="build" />
+
+          <property name="ant.library.dir" value="/usr/share/ant/lib" />
+
+          <property name="ivy.cache.dir.ivy.instance" value="/home/egor/.ivy2/cache" />
+
+          <property name="ant.project.name" value="weblab-3" />
+
+          <property name="jdk.debug.ivy.instance" value="release" />
+
+          <property name="sun.jnu.encoding" value="UTF-8" />
+
+          <property name="java.specification.name.ivy.instance" value="Java Platform API Specification" />
+
+          <property name="ivy.settings.file.ivy.instance" value="ivysettings.xml" />
+
+          <property name="ivy.default.conf.dir" value="jar:file:/usr/share/ant/lib/ivy-2.5.1.jar!/org/apache/ivy/core/settings" />
+
+          <property name="java.runtime.version.ivy.instance" value="17.0.6+10-Ubuntu-0ubuntu122.04" />
+
+          <property name="java.vm.specification.vendor.ivy.instance" value="Oracle Corporation" />
+
+          <property name="ivy.local.default.artifact.pattern.ivy.instance" value="[organisation]/[module]/[revision]/[type]s/[artifact].[ext]" />
+
+          <property name="ivy.build.artifacts.dir.ivy.instance" value="/home/egor/mispi-svn-3/trunk/weblab-3/build/artifacts" />
+
+          <property name="ivy.settings.dir" value="jar:file:/usr/share/ant/lib/ivy-2.5.1.jar!/org/apache/ivy/core/settings" />
+
+          <property name="sun.java.launcher.ivy.instance" value="SUN_STANDARD" />
+
+          <property name="ivy.local.default.root.ivy.instance" value="/home/egor/.ivy2/local" />
+
+          <property name="ivy.local.default.artifact.pattern" value="[organisation]/[module]/[revision]/[type]s/[artifact].[ext]" />
+
+          <property name="sun.stderr.encoding" value="UTF-8" />
+
+          <property name="java.class.version.ivy.instance" value="61.0" />
+
+          <property name="ivy.resolve.default.type.filter" value="*" />
+
+          <property name="sun.management.compiler.ivy.instance" value="HotSpot 64-Bit Tiered Compilers" />
+
+          <property name="ivy.cache.ttl.default.ivy.instance" value="10s" />
+
+          <property name="project.version" value="1.0" />
+
+          <property name="file.separator" value="/" />
+
+          <property name="java.vm.compressedOopsMode" value="Zero based" />
+
+          <property name="ivy.settings.dir.url" value="jar:file:/usr/share/ant/lib/ivy-2.5.1.jar!/org/apache/ivy/core/settings" />
+
+          <property name="ivy.dep.file.ivy.instance" value="ivy.xml" />
+
+          <property name="line.separator" value="&#xa;" />
+
+          <property name="sun.stdout.encoding" value="UTF-8" />
+
+          <property name="ivy.organisation" value="com.tutorialspoint" />
+
+          <property name="ivy.buildlist.ivyfilepath.ivy.instance" value="ivy.xml" />
+
+          <property name="java.vm.compressedOopsMode.ivy.instance" value="Zero based" />
+
+          <property name="user.name" value="egor" />
+
+          <property name="sun.stderr.encoding.ivy.instance" value="UTF-8" />
+
+          <property name="ivy.publish.src.artifacts.pattern" value="/home/egor/mispi-svn-3/trunk/weblab-3/distrib/[type]s/[artifact]-[revision](-[classifier]).[ext]" />
+
+          <property name="ant.file.type.weblab-3" value="file" />
+
+          <property name="build.dir" value="history/trunk/weblab-3/build" />
+
+          <property name="dir.diff" value="src/main" />
+
+          <property name="file.name" value="aboba.txt" />
+
+          <property name="ant.home" value="/usr/share/ant" />
+
+          <property name="ivy.module" value="com" />
+
+          <property name="ant.version" value="Apache Ant(TM) version 1.10.12 compiled on January 17 1970" />
+
+          <property name="ivy.report.output.pattern" value="[organisation]-[module]-[conf].[ext]" />
+
+          <property name="ivy.log.modules.in.use" value="false" />
+
+          <property name="ivy.conf.url.ivy.instance" value="jar:file:/usr/share/ant/lib/ivy-2.5.1.jar!/org/apache/ivy/core/settings/ivysettings.xml" />
+
+          <property name="classes.dir" value="history/trunk/weblab-3/build/classes" />
+
+          <property name="os.arch.ivy.instance" value="amd64" />
+
+          <property name="java.library.path.ivy.instance" value="/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib" />
+
+          <property name="user.home.ivy.instance" value="/home/egor" />
+
+          <property name="ivy.shared.default.artifact.pattern.ivy.instance" value="[organisation]/[module]/[revision]/[type]s/[artifact].[ext]" />
+
+          <property name="java.vendor.url.bug.ivy.instance" value="Unknown" />
+
+          <property name="revision.list" value="------------------------------------------------------------------------r13 | egor | 2023-05-17 00:20:48 +0300 (Ср, 17 мая 2023)------------------------------------------------------------------------" />
+
+          <property name="ivy.local.default.root" value="/home/egor/.ivy2/local" />
+
+          <property name="java.class.path" value="/usr/share/ant/lib/ant-launcher.jar:/usr/share/ant/lib/ant-apache-log4j.jar:/usr/share/ant/lib/ivy-2.5.1.jar:/usr/share/ant/lib/ant-apache-bsf.jar:/usr/share/ant/lib/svnkit.jar:/usr/share/ant/lib/ant-apache-regexp.jar:/usr/share/ant/lib/jsch.jar:/usr/share/ant/lib/ant.jar:/usr/share/ant/lib/ant-apache-bcel.jar:/usr/share/ant/lib/ant-apache-resolver.jar:/usr/share/ant/lib/bcel.jar:/usr/share/ant/lib/ant-testutil.jar:/usr/share/ant/lib/ant-commons-logging.jar:/usr/share/ant/lib/ant-junit.jar:/usr/share/ant/lib/ant-antlr.jar:/usr/share/ant/lib/ant-jmf.jar:/usr/share/ant/lib/svnClientAdapter.jar:/usr/share/ant/lib/ant-apache-oro.jar:/usr/share/ant/lib/ant-launcher.jar:/usr/share/ant/lib/ant-apache-xalan2.jar:/usr/share/ant/lib/ant-jsch.jar:/usr/share/ant/lib/ant-javamail.jar:/usr/share/ant/lib/svnant.jar:/usr/share/ant/lib/ant-junit4.jar:/usr/share/ant/lib/ant-contrib.jar:/usr/share/ant/lib/ant-jdepend.jar:/usr/share/ant/lib/ant-swing.jar:/usr/share/ant/lib/ant-contrib-0.3.jar:/usr/share/ant/lib/ant-xz.jar:/usr/share/ant/lib/ant-commons-net.jar:/usr/share/ant/lib/svnjavahl.jar" />
+
+          <property name="java.vm.vendor" value="Private Build" />
+
+          <property name="java.vendor.ivy.instance" value="Private Build" />
+
+          <property name="main-class" value="com.example.facelets.Main" />
+
+          <property name="ivy.project.dir.ivy.instance" value="/home/egor/mispi-svn-3/trunk/weblab-3" />
+
+          <property name="ivy.status.ivy.instance" value="integration" />
+
+          <property name="sun.java.launcher" value="SUN_STANDARD" />
+
+          <property name="user.country" value="RU" />
+
+          <property name="ivy.retrieve.pattern" value="/home/egor/mispi-svn-3/trunk/weblab-3/lib/[artifact]-[revision](-[classifier]).[ext]" />
+
+          <property name="sun.cpu.endian" value="little" />
+
+          <property name="ivy.checksums.ivy.instance" value="sha1,md5" />
+
+          <property name="user.language" value="ru" />
+
+          <property name="user.name.ivy.instance" value="egor" />
+
+          <property name="ivy.home.ivy.instance" value="/home/egor/.ivy2" />
+
+          <property name="svn.repo" value="file:///var/lib/svn/mispi-svn-3" />
+
+          <property name="revision" value="1" />
+
+          <property name="ant.java.version" value="17" />
+
+          <property name="native.encoding.ivy.instance" value="UTF-8" />
+
+          <property name="ivy.basedir" value="/home/egor/mispi-svn-3/trunk/weblab-3" />
+
+          <property name="java.vm.vendor.ivy.instance" value="Private Build" />
+
+          <property name="ant.home.ivy.instance" value="/usr/share/ant" />
+
+          <property name="ivy.cache.ttl.default" value="10s" />
+
+          <property name="zip.file" value="revisions.zip" />
+
+          <property name="java.vm.name.ivy.instance" value="OpenJDK 64-Bit Server VM" />
+
+          <property name="ivy.resolver.default.check.modified.ivy.instance" value="false" />
+
+          <property name="java.specification.vendor.ivy.instance" value="Oracle Corporation" />
+
+          <property name="ivy.configurations" value="*" />
+
+          <property name="locales.file" value="data_ru_Ru.properties" />
+
+          <property name="ivy.default.always.check.exact.revision" value="false" />
+
+          <property name="java.runtime.name" value="OpenJDK Runtime Environment" />
+
+          <property name="ivy.distrib.dir.ivy.instance" value="/home/egor/mispi-svn-3/trunk/weblab-3/distrib" />
+
+          <property name="ant.project.invoked-targets" value="test" />
+
+          <property name="ant.core.lib" value="/usr/share/ant/lib/ant.jar" />
+
+          <property name="sun.stdout.encoding.ivy.instance" value="UTF-8" />
+
+          <property name="java.vendor.url.bug" value="Unknown" />
+
+          <property name="user.dir" value="/home/egor/mispi-svn-3/trunk/weblab-3" />
+
+          <property name="ascii.dest" value="./ascii" />
+
+          <property name="path.separator.ivy.instance" value=":" />
+
+          <property name="ivy.local.default.ivy.pattern.ivy.instance" value="[organisation]/[module]/[revision]/[type]s/[artifact].[ext]" />
+
+          <property name="ivy.report.output.pattern.ivy.instance" value="[organisation]-[module]-[conf].[ext]" />
+
+          <property name="ivy.log.modules.in.use.ivy.instance" value="false" />
+
+          <property name="java.vm.version" value="17.0.6+10-Ubuntu-0ubuntu122.04" />
+
+          <property name="ivy.resolver.default.check.modified" value="false" />
+
+          <property name="java.home.ivy.instance" value="/usr/lib/jvm/java-17-openjdk-amd64" />
+
+          <property name="ivy.shared.default.artifact.pattern" value="[organisation]/[module]/[revision]/[type]s/[artifact].[ext]" />
+
+          <property name="ivy.settings.url" value="jar:file:/usr/share/ant/lib/ivy-2.5.1.jar!/org/apache/ivy/core/settings/ivysettings.xml" />
+
+          <property name="ivy.build.artifacts.dir" value="/home/egor/mispi-svn-3/trunk/weblab-3/build/artifacts" />
+
+          <property name="ivy.resolved.configurations" value="default" />
+
+          <property name="ivy.conf.url" value="jar:file:/usr/share/ant/lib/ivy-2.5.1.jar!/org/apache/ivy/core/settings/ivysettings.xml" />
+
+      </properties>
+
+      <error message="java.com.example.facelets.AttemptHitterTest" type="java.lang.ClassNotFoundException">java.lang.ClassNotFoundException: java.com.example.facelets.AttemptHitterTest
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:467)
+	at jdk.internal.reflect.GeneratedMethodAccessor5.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at jdk.internal.reflect.GeneratedMethodAccessor5.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.util.Vector.forEach(Vector.java:1365)
+	at jdk.internal.reflect.GeneratedMethodAccessor5.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at net.sf.antcontrib.logic.ForTask.doSequentialIteration(ForTask.java:259)
+	at net.sf.antcontrib.logic.ForTask.doToken(ForTask.java:268)
+	at net.sf.antcontrib.logic.ForTask.doTheTasks(ForTask.java:308)
+	at net.sf.antcontrib.logic.ForTask.execute(ForTask.java:244)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+</error>
+
+      <system-out><![CDATA[]]></system-out>
+
+      <system-err><![CDATA[]]></system-err>
+
+  </testsuite>
+  <testsuite errors="1" failures="0" hostname="OMEN-Laptop-15-en0xxx" id="2" name="HitServiceTest" package="java.com.example.facelets" skipped="0" tests="1" time="0.0" timestamp="2023-05-16T22:12:44">
+      <properties>
+          <property name="sun.boot.library.path.ivy.instance" value="/usr/lib/jvm/java-17-openjdk-amd64/lib" />
+
+          <property name="java.specification.version" value="17" />
+
+          <property name="java.specification.version.ivy.instance" value="17" />
+
+          <property name="sun.cpu.endian.ivy.instance" value="little" />
+
+          <property name="sun.arch.data.model" value="64" />
+
+          <property name="ivy.home" value="/home/egor/.ivy2" />
+
+          <property name="java.vendor.url" value="Unknown" />
+
+          <property name="java.version.ivy.instance" value="17.0.6" />
+
+          <property name="ivy.default.conf.dir.ivy.instance" value="jar:file:/usr/share/ant/lib/ivy-2.5.1.jar!/org/apache/ivy/core/settings" />
+
+          <property name="ivy.conf.dir" value="jar:file:/usr/share/ant/lib/ivy-2.5.1.jar!/org/apache/ivy/core/settings" />
+
+          <property name="sun.boot.library.path" value="/usr/lib/jvm/java-17-openjdk-amd64/lib" />
+
+          <property name="sun.java.command" value="org.apache.tools.ant.launch.Launcher -cp  history" />
+
+          <property name="os.version.ivy.instance" value="5.19.0-41-generic" />
+
+          <property name="ivy.retrieve.pattern.ivy.instance" value="/home/egor/mispi-svn-3/trunk/weblab-3/lib/[artifact]-[revision](-[classifier]).[ext]" />
+
+          <property name="sun.jnu.encoding.ivy.instance" value="UTF-8" />
+
+          <property name="user.dir.ivy.instance" value="/home/egor/mispi-svn-3/trunk/weblab-3" />
+
+          <property name="jdk.debug" value="release" />
+
+          <property name="ivy.revision" value="working@OMEN-Laptop-15-en0xxx" />
+
+          <property name="java.specification.vendor" value="Oracle Corporation" />
+
+          <property name="java.vm.version.ivy.instance" value="17.0.6+10-Ubuntu-0ubuntu122.04" />
+
+          <property name="file.separator.ivy.instance" value="/" />
+
+          <property name="java.version.date" value="2023-01-17" />
+
+          <property name="ascii.ext" value=".properties" />
+
+          <property name="java.home" value="/usr/lib/jvm/java-17-openjdk-amd64" />
+
+          <property name="basedir" value="/home/egor/mispi-svn-3/trunk/weblab-3" />
+
+          <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+
+          <property name="java.specification.name" value="Java Platform API Specification" />
+
+          <property name="user.timezone.ivy.instance" value="Europe/Moscow" />
+
+          <property name="ivy.resolve.default.type.filter.ivy.instance" value="*" />
+
+          <property name="ivy.basedir.ivy.instance" value="/home/egor/mispi-svn-3/trunk/weblab-3" />
+
+          <property name="ivy.default.ivy.user.dir" value="/home/egor/.ivy2" />
+
+          <property name="ivy.lib.dir.ivy.instance" value="/home/egor/mispi-svn-3/trunk/weblab-3/lib" />
+
+          <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+
+          <property name="ivy.cache.dir" value="/home/egor/.ivy2/cache" />
+
+          <property name="java.runtime.version" value="17.0.6+10-Ubuntu-0ubuntu122.04" />
+
+          <property name="java.runtime.name.ivy.instance" value="OpenJDK Runtime Environment" />
+
+          <property name="sun.io.unicode.encoding.ivy.instance" value="UnicodeLittle" />
+
+          <property name="basedir.ivy.instance" value="/home/egor/mispi-svn-3/trunk/weblab-3" />
+
+          <property name="file.encoding" value="UTF-8" />
+
+          <property name="ivy.dep.file" value="ivy.xml" />
+
+          <property name="os.name.ivy.instance" value="Linux" />
+
+          <property name="user.language.ivy.instance" value="ru" />
+
+          <property name="ivy.settings.file" value="ivysettings.xml" />
+
+          <property name="java.vm.specification.version.ivy.instance" value="17" />
+
+          <property name="ivy.local.default.ivy.pattern" value="[organisation]/[module]/[revision]/[type]s/[artifact].[ext]" />
+
+          <property name="java.vendor.url.ivy.instance" value="Unknown" />
+
+          <property name="line.separator.ivy.instance" value="&#xa;" />
+
+          <property name="flg" value="false" />
+
+          <property name="java.io.tmpdir" value="/tmp" />
+
+          <property name="java.version" value="17.0.6" />
+
+          <property name="ivy.resolved.file" value="/home/egor/mispi-svn-3/trunk/weblab-3/ivy.xml" />
+
+          <property name="java.vm.specification.name.ivy.instance" value="Java Virtual Machine Specification" />
+
+          <property name="ivy.settings.dir.ivy.instance" value="jar:file:/usr/share/ant/lib/ivy-2.5.1.jar!/org/apache/ivy/core/settings" />
+
+          <property name="last.revision" value="13" />
+
+          <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+
+          <property name="file.encoding.ivy.instance" value="UTF-8" />
+
+          <property name="ivy.deliver.ivy.pattern" value="/home/egor/mispi-svn-3/trunk/weblab-3/distrib/[type]s/[artifact]-[revision](-[classifier]).[ext]" />
+
+          <property name="ivy.status" value="integration" />
+
+          <property name="native.encoding" value="UTF-8" />
+
+          <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib" />
+
+          <property name="java.vendor" value="Private Build" />
+
+          <property name="ant.file.weblab-3" value="/home/egor/mispi-svn-3/trunk/weblab-3/build.xml" />
+
+          <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+
+          <property name="sun.arch.data.model.ivy.instance" value="64" />
+
+          <property name="ivy.default.ivy.user.dir.ivy.instance" value="/home/egor/.ivy2" />
+
+          <property name="ant.file.type" value="file" />
+
+          <property name="music.path" value="./aboba.wav" />
+
+          <property name="ivy.parents.count" value="0" />
+
+          <property name="ivy.configurations.ivy.instance" value="*" />
+
+          <property name="java.io.tmpdir.ivy.instance" value="/tmp" />
+
+          <property name="java.version.date.ivy.instance" value="2023-01-17" />
+
+          <property name="ivy.default.settings.dir.ivy.instance" value="jar:file:/usr/share/ant/lib/ivy-2.5.1.jar!/org/apache/ivy/core/settings" />
+
+          <property name="ivy.shared.default.root" value="/home/egor/.ivy2/shared" />
+
+          <property name="ivy.shared.default.ivy.pattern" value="[organisation]/[module]/[revision]/[type]s/[artifact].[ext]" />
+
+          <property name="ivy.shared.default.ivy.pattern.ivy.instance" value="[organisation]/[module]/[revision]/[type]s/[artifact].[ext]" />
+
+          <property name="user.timezone" value="Europe/Moscow" />
+
+          <property name="java.vm.specification.version" value="17" />
+
+          <property name="os.name" value="Linux" />
+
+          <property name="ivy.deps.changed" value="false" />
+
+          <property name="ivy.lib.dir" value="/home/egor/mispi-svn-3/trunk/weblab-3/lib" />
+
+          <property name="zip.name" value="aboba.zip" />
+
+          <property name="test.dir" value="history/trunk/weblab-3/src/test" />
+
+          <property name="user.home" value="/home/egor" />
+
+          <property name="sun.java.command.ivy.instance" value="org.apache.tools.ant.launch.Launcher -cp  history" />
+
+          <property name="java.class.path.ivy.instance" value="/usr/share/ant/lib/ant-launcher.jar:/usr/share/ant/lib/ant-apache-log4j.jar:/usr/share/ant/lib/ivy-2.5.1.jar:/usr/share/ant/lib/ant-apache-bsf.jar:/usr/share/ant/lib/svnkit.jar:/usr/share/ant/lib/ant-apache-regexp.jar:/usr/share/ant/lib/jsch.jar:/usr/share/ant/lib/ant.jar:/usr/share/ant/lib/ant-apache-bcel.jar:/usr/share/ant/lib/ant-apache-resolver.jar:/usr/share/ant/lib/bcel.jar:/usr/share/ant/lib/ant-testutil.jar:/usr/share/ant/lib/ant-commons-logging.jar:/usr/share/ant/lib/ant-junit.jar:/usr/share/ant/lib/ant-antlr.jar:/usr/share/ant/lib/ant-jmf.jar:/usr/share/ant/lib/svnClientAdapter.jar:/usr/share/ant/lib/ant-apache-oro.jar:/usr/share/ant/lib/ant-launcher.jar:/usr/share/ant/lib/ant-apache-xalan2.jar:/usr/share/ant/lib/ant-jsch.jar:/usr/share/ant/lib/ant-javamail.jar:/usr/share/ant/lib/svnant.jar:/usr/share/ant/lib/ant-junit4.jar:/usr/share/ant/lib/ant-contrib.jar:/usr/share/ant/lib/ant-jdepend.jar:/usr/share/ant/lib/ant-swing.jar:/usr/share/ant/lib/ant-contrib-0.3.jar:/usr/share/ant/lib/ant-xz.jar:/usr/share/ant/lib/ant-commons-net.jar:/usr/share/ant/lib/svnjavahl.jar" />
+
+          <property name="ivy.publish.src.artifacts.pattern.ivy.instance" value="/home/egor/mispi-svn-3/trunk/weblab-3/distrib/[type]s/[artifact]-[revision](-[classifier]).[ext]" />
+
+          <property name="ivy.checksums" value="sha1,md5" />
+
+          <property name="ivy.default.settings.dir" value="jar:file:/usr/share/ant/lib/ivy-2.5.1.jar!/org/apache/ivy/core/settings" />
+
+          <property name="ivy.version" value="2.5.1" />
+
+          <property name="java.vm.info.ivy.instance" value="mixed mode, sharing" />
+
+          <property name="ivy.distrib.dir" value="/home/egor/mispi-svn-3/trunk/weblab-3/distrib" />
+
+          <property name="ant.library.dir.ivy.instance" value="/usr/share/ant/lib" />
+
+          <property name="ivy.settings.url.ivy.instance" value="jar:file:/usr/share/ant/lib/ivy-2.5.1.jar!/org/apache/ivy/core/settings/ivysettings.xml" />
+
+          <property name="ivy.project.dir" value="/home/egor/mispi-svn-3/trunk/weblab-3" />
+
+          <property name="ant.file" value="/home/egor/mispi-svn-3/trunk/weblab-3/build.xml" />
+
+          <property name="path.separator" value=":" />
+
+          <property name="os.version" value="5.19.0-41-generic" />
+
+          <property name="ivy.default.always.check.exact.revision.ivy.instance" value="false" />
+
+          <property name="java.vm.name" value="OpenJDK 64-Bit Server VM" />
+
+          <property name="ivy.buildlist.ivyfilepath" value="ivy.xml" />
+
+          <property name="os.arch" value="amd64" />
+
+          <property name="ivy.settings.dir.url.ivy.instance" value="jar:file:/usr/share/ant/lib/ivy-2.5.1.jar!/org/apache/ivy/core/settings" />
+
+          <property name="ivy.shared.default.root.ivy.instance" value="/home/egor/.ivy2/shared" />
+
+          <property name="ivy.deliver.ivy.pattern.ivy.instance" value="/home/egor/mispi-svn-3/trunk/weblab-3/distrib/[type]s/[artifact]-[revision](-[classifier]).[ext]" />
+
+          <property name="java.vm.info" value="mixed mode, sharing" />
+
+          <property name="ivy.conf.dir.ivy.instance" value="jar:file:/usr/share/ant/lib/ivy-2.5.1.jar!/org/apache/ivy/core/settings" />
+
+          <property name="user.country.ivy.instance" value="RU" />
+
+          <property name="java.class.version" value="61.0" />
+
+          <property name="src.dir" value="history/trunk/weblab-3/src" />
+
+          <property name="ant.project.default-target" value="build" />
+
+          <property name="ant.library.dir" value="/usr/share/ant/lib" />
+
+          <property name="ivy.cache.dir.ivy.instance" value="/home/egor/.ivy2/cache" />
+
+          <property name="ant.project.name" value="weblab-3" />
+
+          <property name="jdk.debug.ivy.instance" value="release" />
+
+          <property name="sun.jnu.encoding" value="UTF-8" />
+
+          <property name="java.specification.name.ivy.instance" value="Java Platform API Specification" />
+
+          <property name="ivy.settings.file.ivy.instance" value="ivysettings.xml" />
+
+          <property name="ivy.default.conf.dir" value="jar:file:/usr/share/ant/lib/ivy-2.5.1.jar!/org/apache/ivy/core/settings" />
+
+          <property name="java.runtime.version.ivy.instance" value="17.0.6+10-Ubuntu-0ubuntu122.04" />
+
+          <property name="java.vm.specification.vendor.ivy.instance" value="Oracle Corporation" />
+
+          <property name="ivy.local.default.artifact.pattern.ivy.instance" value="[organisation]/[module]/[revision]/[type]s/[artifact].[ext]" />
+
+          <property name="ivy.build.artifacts.dir.ivy.instance" value="/home/egor/mispi-svn-3/trunk/weblab-3/build/artifacts" />
+
+          <property name="ivy.settings.dir" value="jar:file:/usr/share/ant/lib/ivy-2.5.1.jar!/org/apache/ivy/core/settings" />
+
+          <property name="sun.java.launcher.ivy.instance" value="SUN_STANDARD" />
+
+          <property name="ivy.local.default.root.ivy.instance" value="/home/egor/.ivy2/local" />
+
+          <property name="ivy.local.default.artifact.pattern" value="[organisation]/[module]/[revision]/[type]s/[artifact].[ext]" />
+
+          <property name="sun.stderr.encoding" value="UTF-8" />
+
+          <property name="java.class.version.ivy.instance" value="61.0" />
+
+          <property name="ivy.resolve.default.type.filter" value="*" />
+
+          <property name="sun.management.compiler.ivy.instance" value="HotSpot 64-Bit Tiered Compilers" />
+
+          <property name="ivy.cache.ttl.default.ivy.instance" value="10s" />
+
+          <property name="project.version" value="1.0" />
+
+          <property name="file.separator" value="/" />
+
+          <property name="java.vm.compressedOopsMode" value="Zero based" />
+
+          <property name="ivy.settings.dir.url" value="jar:file:/usr/share/ant/lib/ivy-2.5.1.jar!/org/apache/ivy/core/settings" />
+
+          <property name="ivy.dep.file.ivy.instance" value="ivy.xml" />
+
+          <property name="line.separator" value="&#xa;" />
+
+          <property name="sun.stdout.encoding" value="UTF-8" />
+
+          <property name="ivy.organisation" value="com.tutorialspoint" />
+
+          <property name="ivy.buildlist.ivyfilepath.ivy.instance" value="ivy.xml" />
+
+          <property name="java.vm.compressedOopsMode.ivy.instance" value="Zero based" />
+
+          <property name="user.name" value="egor" />
+
+          <property name="sun.stderr.encoding.ivy.instance" value="UTF-8" />
+
+          <property name="ivy.publish.src.artifacts.pattern" value="/home/egor/mispi-svn-3/trunk/weblab-3/distrib/[type]s/[artifact]-[revision](-[classifier]).[ext]" />
+
+          <property name="ant.file.type.weblab-3" value="file" />
+
+          <property name="build.dir" value="history/trunk/weblab-3/build" />
+
+          <property name="dir.diff" value="src/main" />
+
+          <property name="file.name" value="aboba.txt" />
+
+          <property name="ant.home" value="/usr/share/ant" />
+
+          <property name="ivy.module" value="com" />
+
+          <property name="ant.version" value="Apache Ant(TM) version 1.10.12 compiled on January 17 1970" />
+
+          <property name="ivy.report.output.pattern" value="[organisation]-[module]-[conf].[ext]" />
+
+          <property name="ivy.log.modules.in.use" value="false" />
+
+          <property name="ivy.conf.url.ivy.instance" value="jar:file:/usr/share/ant/lib/ivy-2.5.1.jar!/org/apache/ivy/core/settings/ivysettings.xml" />
+
+          <property name="classes.dir" value="history/trunk/weblab-3/build/classes" />
+
+          <property name="os.arch.ivy.instance" value="amd64" />
+
+          <property name="java.library.path.ivy.instance" value="/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib" />
+
+          <property name="user.home.ivy.instance" value="/home/egor" />
+
+          <property name="ivy.shared.default.artifact.pattern.ivy.instance" value="[organisation]/[module]/[revision]/[type]s/[artifact].[ext]" />
+
+          <property name="java.vendor.url.bug.ivy.instance" value="Unknown" />
+
+          <property name="revision.list" value="------------------------------------------------------------------------r13 | egor | 2023-05-17 00:20:48 +0300 (Ср, 17 мая 2023)------------------------------------------------------------------------" />
+
+          <property name="ivy.local.default.root" value="/home/egor/.ivy2/local" />
+
+          <property name="java.class.path" value="/usr/share/ant/lib/ant-launcher.jar:/usr/share/ant/lib/ant-apache-log4j.jar:/usr/share/ant/lib/ivy-2.5.1.jar:/usr/share/ant/lib/ant-apache-bsf.jar:/usr/share/ant/lib/svnkit.jar:/usr/share/ant/lib/ant-apache-regexp.jar:/usr/share/ant/lib/jsch.jar:/usr/share/ant/lib/ant.jar:/usr/share/ant/lib/ant-apache-bcel.jar:/usr/share/ant/lib/ant-apache-resolver.jar:/usr/share/ant/lib/bcel.jar:/usr/share/ant/lib/ant-testutil.jar:/usr/share/ant/lib/ant-commons-logging.jar:/usr/share/ant/lib/ant-junit.jar:/usr/share/ant/lib/ant-antlr.jar:/usr/share/ant/lib/ant-jmf.jar:/usr/share/ant/lib/svnClientAdapter.jar:/usr/share/ant/lib/ant-apache-oro.jar:/usr/share/ant/lib/ant-launcher.jar:/usr/share/ant/lib/ant-apache-xalan2.jar:/usr/share/ant/lib/ant-jsch.jar:/usr/share/ant/lib/ant-javamail.jar:/usr/share/ant/lib/svnant.jar:/usr/share/ant/lib/ant-junit4.jar:/usr/share/ant/lib/ant-contrib.jar:/usr/share/ant/lib/ant-jdepend.jar:/usr/share/ant/lib/ant-swing.jar:/usr/share/ant/lib/ant-contrib-0.3.jar:/usr/share/ant/lib/ant-xz.jar:/usr/share/ant/lib/ant-commons-net.jar:/usr/share/ant/lib/svnjavahl.jar" />
+
+          <property name="java.vm.vendor" value="Private Build" />
+
+          <property name="java.vendor.ivy.instance" value="Private Build" />
+
+          <property name="main-class" value="com.example.facelets.Main" />
+
+          <property name="ivy.project.dir.ivy.instance" value="/home/egor/mispi-svn-3/trunk/weblab-3" />
+
+          <property name="ivy.status.ivy.instance" value="integration" />
+
+          <property name="sun.java.launcher" value="SUN_STANDARD" />
+
+          <property name="user.country" value="RU" />
+
+          <property name="ivy.retrieve.pattern" value="/home/egor/mispi-svn-3/trunk/weblab-3/lib/[artifact]-[revision](-[classifier]).[ext]" />
+
+          <property name="sun.cpu.endian" value="little" />
+
+          <property name="ivy.checksums.ivy.instance" value="sha1,md5" />
+
+          <property name="user.language" value="ru" />
+
+          <property name="user.name.ivy.instance" value="egor" />
+
+          <property name="ivy.home.ivy.instance" value="/home/egor/.ivy2" />
+
+          <property name="svn.repo" value="file:///var/lib/svn/mispi-svn-3" />
+
+          <property name="revision" value="1" />
+
+          <property name="ant.java.version" value="17" />
+
+          <property name="native.encoding.ivy.instance" value="UTF-8" />
+
+          <property name="ivy.basedir" value="/home/egor/mispi-svn-3/trunk/weblab-3" />
+
+          <property name="java.vm.vendor.ivy.instance" value="Private Build" />
+
+          <property name="ant.home.ivy.instance" value="/usr/share/ant" />
+
+          <property name="ivy.cache.ttl.default" value="10s" />
+
+          <property name="zip.file" value="revisions.zip" />
+
+          <property name="java.vm.name.ivy.instance" value="OpenJDK 64-Bit Server VM" />
+
+          <property name="ivy.resolver.default.check.modified.ivy.instance" value="false" />
+
+          <property name="java.specification.vendor.ivy.instance" value="Oracle Corporation" />
+
+          <property name="ivy.configurations" value="*" />
+
+          <property name="locales.file" value="data_ru_Ru.properties" />
+
+          <property name="ivy.default.always.check.exact.revision" value="false" />
+
+          <property name="java.runtime.name" value="OpenJDK Runtime Environment" />
+
+          <property name="ivy.distrib.dir.ivy.instance" value="/home/egor/mispi-svn-3/trunk/weblab-3/distrib" />
+
+          <property name="ant.project.invoked-targets" value="test" />
+
+          <property name="ant.core.lib" value="/usr/share/ant/lib/ant.jar" />
+
+          <property name="sun.stdout.encoding.ivy.instance" value="UTF-8" />
+
+          <property name="java.vendor.url.bug" value="Unknown" />
+
+          <property name="user.dir" value="/home/egor/mispi-svn-3/trunk/weblab-3" />
+
+          <property name="ascii.dest" value="./ascii" />
+
+          <property name="path.separator.ivy.instance" value=":" />
+
+          <property name="ivy.local.default.ivy.pattern.ivy.instance" value="[organisation]/[module]/[revision]/[type]s/[artifact].[ext]" />
+
+          <property name="ivy.report.output.pattern.ivy.instance" value="[organisation]-[module]-[conf].[ext]" />
+
+          <property name="ivy.log.modules.in.use.ivy.instance" value="false" />
+
+          <property name="java.vm.version" value="17.0.6+10-Ubuntu-0ubuntu122.04" />
+
+          <property name="ivy.resolver.default.check.modified" value="false" />
+
+          <property name="java.home.ivy.instance" value="/usr/lib/jvm/java-17-openjdk-amd64" />
+
+          <property name="ivy.shared.default.artifact.pattern" value="[organisation]/[module]/[revision]/[type]s/[artifact].[ext]" />
+
+          <property name="ivy.settings.url" value="jar:file:/usr/share/ant/lib/ivy-2.5.1.jar!/org/apache/ivy/core/settings/ivysettings.xml" />
+
+          <property name="ivy.build.artifacts.dir" value="/home/egor/mispi-svn-3/trunk/weblab-3/build/artifacts" />
+
+          <property name="ivy.resolved.configurations" value="default" />
+
+          <property name="ivy.conf.url" value="jar:file:/usr/share/ant/lib/ivy-2.5.1.jar!/org/apache/ivy/core/settings/ivysettings.xml" />
+
+      </properties>
+
+      <error message="java.com.example.facelets.HitServiceTest" type="java.lang.ClassNotFoundException">java.lang.ClassNotFoundException: java.com.example.facelets.HitServiceTest
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:467)
+	at jdk.internal.reflect.GeneratedMethodAccessor5.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at jdk.internal.reflect.GeneratedMethodAccessor5.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.util.Vector.forEach(Vector.java:1365)
+	at jdk.internal.reflect.GeneratedMethodAccessor5.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at net.sf.antcontrib.logic.ForTask.doSequentialIteration(ForTask.java:259)
+	at net.sf.antcontrib.logic.ForTask.doToken(ForTask.java:268)
+	at net.sf.antcontrib.logic.ForTask.doTheTasks(ForTask.java:308)
+	at net.sf.antcontrib.logic.ForTask.execute(ForTask.java:244)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+</error>
+
+      <system-out><![CDATA[]]></system-out>
+
+      <system-err><![CDATA[]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="1" hostname="OMEN-Laptop-15-en0xxx" id="3" name="HitServiceTest" package="com.example.facelets" skipped="0" tests="2" time="0.017" timestamp="2023-05-16T23:26:42">
+      <properties>
+          <property name="sun.boot.library.path.ivy.instance" value="/usr/lib/jvm/java-17-openjdk-amd64/lib" />
+
+          <property name="java.specification.version" value="17" />
+
+          <property name="java.specification.version.ivy.instance" value="17" />
+
+          <property name="sun.cpu.endian.ivy.instance" value="little" />
+
+          <property name="sun.arch.data.model" value="64" />
+
+          <property name="ivy.home" value="/home/egor/.ivy2" />
+
+          <property name="java.vendor.url" value="Unknown" />
+
+          <property name="java.version.ivy.instance" value="17.0.6" />
+
+          <property name="ivy.default.conf.dir.ivy.instance" value="jar:file:/usr/share/ant/lib/ivy-2.5.1.jar!/org/apache/ivy/core/settings" />
+
+          <property name="ivy.conf.dir" value="jar:file:/usr/share/ant/lib/ivy-2.5.1.jar!/org/apache/ivy/core/settings" />
+
+          <property name="sun.boot.library.path" value="/usr/lib/jvm/java-17-openjdk-amd64/lib" />
+
+          <property name="sun.java.command" value="org.apache.tools.ant.launch.Launcher -cp  history" />
+
+          <property name="os.version.ivy.instance" value="5.19.0-41-generic" />
+
+          <property name="ivy.retrieve.pattern.ivy.instance" value="/home/egor/mispi-svn-3/trunk/weblab-3/lib/[artifact]-[revision](-[classifier]).[ext]" />
+
+          <property name="sun.jnu.encoding.ivy.instance" value="UTF-8" />
+
+          <property name="user.dir.ivy.instance" value="/home/egor/mispi-svn-3/trunk/weblab-3" />
+
+          <property name="jdk.debug" value="release" />
+
+          <property name="ivy.revision" value="working@OMEN-Laptop-15-en0xxx" />
+
+          <property name="java.specification.vendor" value="Oracle Corporation" />
+
+          <property name="java.vm.version.ivy.instance" value="17.0.6+10-Ubuntu-0ubuntu122.04" />
+
+          <property name="file.separator.ivy.instance" value="/" />
+
+          <property name="java.version.date" value="2023-01-17" />
+
+          <property name="ascii.ext" value=".properties" />
+
+          <property name="java.home" value="/usr/lib/jvm/java-17-openjdk-amd64" />
+
+          <property name="basedir" value="/home/egor/mispi-svn-3/trunk/weblab-3/history/trunk/weblab-3" />
+
+          <property name="java.specification.name" value="Java Platform API Specification" />
+
+          <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+
+          <property name="user.timezone.ivy.instance" value="Europe/Moscow" />
+
+          <property name="ivy.resolve.default.type.filter.ivy.instance" value="*" />
+
+          <property name="ivy.basedir.ivy.instance" value="/home/egor/mispi-svn-3/trunk/weblab-3" />
+
+          <property name="ivy.default.ivy.user.dir" value="/home/egor/.ivy2" />
+
+          <property name="ivy.lib.dir.ivy.instance" value="/home/egor/mispi-svn-3/trunk/weblab-3/lib" />
+
+          <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+
+          <property name="ivy.cache.dir" value="/home/egor/.ivy2/cache" />
+
+          <property name="java.runtime.version" value="17.0.6+10-Ubuntu-0ubuntu122.04" />
+
+          <property name="java.runtime.name.ivy.instance" value="OpenJDK Runtime Environment" />
+
+          <property name="sun.io.unicode.encoding.ivy.instance" value="UnicodeLittle" />
+
+          <property name="basedir.ivy.instance" value="/home/egor/mispi-svn-3/trunk/weblab-3" />
+
+          <property name="file.encoding" value="UTF-8" />
+
+          <property name="ivy.dep.file" value="ivy.xml" />
+
+          <property name="os.name.ivy.instance" value="Linux" />
+
+          <property name="user.language.ivy.instance" value="ru" />
+
+          <property name="ivy.settings.file" value="ivysettings.xml" />
+
+          <property name="java.vm.specification.version.ivy.instance" value="17" />
+
+          <property name="ivy.local.default.ivy.pattern" value="[organisation]/[module]/[revision]/[type]s/[artifact].[ext]" />
+
+          <property name="line.separator.ivy.instance" value="&#xa;" />
+
+          <property name="java.vendor.url.ivy.instance" value="Unknown" />
+
+          <property name="flg" value="false" />
+
+          <property name="java.io.tmpdir" value="/tmp" />
+
+          <property name="java.version" value="17.0.6" />
+
+          <property name="ivy.resolved.file" value="/home/egor/mispi-svn-3/trunk/weblab-3/history/trunk/weblab-3/ivy.xml" />
+
+          <property name="java.vm.specification.name.ivy.instance" value="Java Virtual Machine Specification" />
+
+          <property name="ivy.settings.dir.ivy.instance" value="jar:file:/usr/share/ant/lib/ivy-2.5.1.jar!/org/apache/ivy/core/settings" />
+
+          <property name="last.revision" value="24" />
+
+          <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+
+          <property name="file.encoding.ivy.instance" value="UTF-8" />
+
+          <property name="ivy.deliver.ivy.pattern" value="/home/egor/mispi-svn-3/trunk/weblab-3/distrib/[type]s/[artifact]-[revision](-[classifier]).[ext]" />
+
+          <property name="native.encoding" value="UTF-8" />
+
+          <property name="ivy.status" value="integration" />
+
+          <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib" />
+
+          <property name="java.vendor" value="Private Build" />
+
+          <property name="ant.file.weblab-3" value="/home/egor/mispi-svn-3/trunk/weblab-3/history/trunk/weblab-3/build.xml" />
+
+          <property name="sun.arch.data.model.ivy.instance" value="64" />
+
+          <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+
+          <property name="ivy.default.ivy.user.dir.ivy.instance" value="/home/egor/.ivy2" />
+
+          <property name="music.path" value="./aboba.wav" />
+
+          <property name="ant.file.type" value="file" />
+
+          <property name="ivy.parents.count" value="0" />
+
+          <property name="ivy.configurations.ivy.instance" value="*" />
+
+          <property name="java.io.tmpdir.ivy.instance" value="/tmp" />
+
+          <property name="java.version.date.ivy.instance" value="2023-01-17" />
+
+          <property name="ivy.default.settings.dir.ivy.instance" value="jar:file:/usr/share/ant/lib/ivy-2.5.1.jar!/org/apache/ivy/core/settings" />
+
+          <property name="ivy.shared.default.ivy.pattern" value="[organisation]/[module]/[revision]/[type]s/[artifact].[ext]" />
+
+          <property name="ivy.shared.default.root" value="/home/egor/.ivy2/shared" />
+
+          <property name="ivy.shared.default.ivy.pattern.ivy.instance" value="[organisation]/[module]/[revision]/[type]s/[artifact].[ext]" />
+
+          <property name="user.timezone" value="Europe/Moscow" />
+
+          <property name="java.vm.specification.version" value="17" />
+
+          <property name="os.name" value="Linux" />
+
+          <property name="ivy.deps.changed" value="false" />
+
+          <property name="ivy.lib.dir" value="/home/egor/mispi-svn-3/trunk/weblab-3/lib" />
+
+          <property name="zip.name" value="aboba.zip" />
+
+          <property name="test.dir" value="src/test/java" />
+
+          <property name="user.home" value="/home/egor" />
+
+          <property name="sun.java.command.ivy.instance" value="org.apache.tools.ant.launch.Launcher -cp  history" />
+
+          <property name="java.class.path.ivy.instance" value="/usr/share/ant/lib/ant-launcher.jar:/usr/share/ant/lib/ant-apache-log4j.jar:/usr/share/ant/lib/ivy-2.5.1.jar:/usr/share/ant/lib/ant-apache-bsf.jar:/usr/share/ant/lib/svnkit.jar:/usr/share/ant/lib/ant-apache-regexp.jar:/usr/share/ant/lib/jsch.jar:/usr/share/ant/lib/ant.jar:/usr/share/ant/lib/ant-apache-bcel.jar:/usr/share/ant/lib/ant-apache-resolver.jar:/usr/share/ant/lib/bcel.jar:/usr/share/ant/lib/ant-testutil.jar:/usr/share/ant/lib/ant-commons-logging.jar:/usr/share/ant/lib/ant-junit.jar:/usr/share/ant/lib/ant-antlr.jar:/usr/share/ant/lib/ant-jmf.jar:/usr/share/ant/lib/svnClientAdapter.jar:/usr/share/ant/lib/ant-apache-oro.jar:/usr/share/ant/lib/ant-launcher.jar:/usr/share/ant/lib/ant-apache-xalan2.jar:/usr/share/ant/lib/ant-jsch.jar:/usr/share/ant/lib/ant-javamail.jar:/usr/share/ant/lib/svnant.jar:/usr/share/ant/lib/ant-junit4.jar:/usr/share/ant/lib/ant-contrib.jar:/usr/share/ant/lib/ant-jdepend.jar:/usr/share/ant/lib/ant-swing.jar:/usr/share/ant/lib/ant-contrib-0.3.jar:/usr/share/ant/lib/ant-xz.jar:/usr/share/ant/lib/ant-commons-net.jar:/usr/share/ant/lib/svnjavahl.jar" />
+
+          <property name="ivy.publish.src.artifacts.pattern.ivy.instance" value="/home/egor/mispi-svn-3/trunk/weblab-3/distrib/[type]s/[artifact]-[revision](-[classifier]).[ext]" />
+
+          <property name="ivy.checksums" value="sha1,md5" />
+
+          <property name="ivy.default.settings.dir" value="jar:file:/usr/share/ant/lib/ivy-2.5.1.jar!/org/apache/ivy/core/settings" />
+
+          <property name="ivy.version" value="2.5.1" />
+
+          <property name="java.vm.info.ivy.instance" value="mixed mode, sharing" />
+
+          <property name="ivy.distrib.dir" value="/home/egor/mispi-svn-3/trunk/weblab-3/distrib" />
+
+          <property name="ant.library.dir.ivy.instance" value="/usr/share/ant/lib" />
+
+          <property name="ivy.settings.url.ivy.instance" value="jar:file:/usr/share/ant/lib/ivy-2.5.1.jar!/org/apache/ivy/core/settings/ivysettings.xml" />
+
+          <property name="ivy.project.dir" value="/home/egor/mispi-svn-3/trunk/weblab-3" />
+
+          <property name="ant.file" value="/home/egor/mispi-svn-3/trunk/weblab-3/history/trunk/weblab-3/build.xml" />
+
+          <property name="path.separator" value=":" />
+
+          <property name="os.version" value="5.19.0-41-generic" />
+
+          <property name="ivy.default.always.check.exact.revision.ivy.instance" value="false" />
+
+          <property name="java.vm.name" value="OpenJDK 64-Bit Server VM" />
+
+          <property name="ivy.buildlist.ivyfilepath" value="ivy.xml" />
+
+          <property name="os.arch" value="amd64" />
+
+          <property name="ivy.settings.dir.url.ivy.instance" value="jar:file:/usr/share/ant/lib/ivy-2.5.1.jar!/org/apache/ivy/core/settings" />
+
+          <property name="ivy.shared.default.root.ivy.instance" value="/home/egor/.ivy2/shared" />
+
+          <property name="ivy.deliver.ivy.pattern.ivy.instance" value="/home/egor/mispi-svn-3/trunk/weblab-3/distrib/[type]s/[artifact]-[revision](-[classifier]).[ext]" />
+
+          <property name="java.vm.info" value="mixed mode, sharing" />
+
+          <property name="ivy.conf.dir.ivy.instance" value="jar:file:/usr/share/ant/lib/ivy-2.5.1.jar!/org/apache/ivy/core/settings" />
+
+          <property name="user.country.ivy.instance" value="RU" />
+
+          <property name="java.class.version" value="61.0" />
+
+          <property name="src.dir" value="src" />
+
+          <property name="ant.project.default-target" value="build" />
+
+          <property name="ant.library.dir" value="/usr/share/ant/lib" />
+
+          <property name="ivy.cache.dir.ivy.instance" value="/home/egor/.ivy2/cache" />
+
+          <property name="ant.project.name" value="weblab-3" />
+
+          <property name="jdk.debug.ivy.instance" value="release" />
+
+          <property name="sun.jnu.encoding" value="UTF-8" />
+
+          <property name="java.specification.name.ivy.instance" value="Java Platform API Specification" />
+
+          <property name="ivy.settings.file.ivy.instance" value="ivysettings.xml" />
+
+          <property name="ivy.default.conf.dir" value="jar:file:/usr/share/ant/lib/ivy-2.5.1.jar!/org/apache/ivy/core/settings" />
+
+          <property name="java.runtime.version.ivy.instance" value="17.0.6+10-Ubuntu-0ubuntu122.04" />
+
+          <property name="java.vm.specification.vendor.ivy.instance" value="Oracle Corporation" />
+
+          <property name="ivy.local.default.artifact.pattern.ivy.instance" value="[organisation]/[module]/[revision]/[type]s/[artifact].[ext]" />
+
+          <property name="ivy.build.artifacts.dir.ivy.instance" value="/home/egor/mispi-svn-3/trunk/weblab-3/build/artifacts" />
+
+          <property name="ivy.settings.dir" value="jar:file:/usr/share/ant/lib/ivy-2.5.1.jar!/org/apache/ivy/core/settings" />
+
+          <property name="sun.java.launcher.ivy.instance" value="SUN_STANDARD" />
+
+          <property name="ivy.local.default.root.ivy.instance" value="/home/egor/.ivy2/local" />
+
+          <property name="ivy.local.default.artifact.pattern" value="[organisation]/[module]/[revision]/[type]s/[artifact].[ext]" />
+
+          <property name="java.class.version.ivy.instance" value="61.0" />
+
+          <property name="sun.stderr.encoding" value="UTF-8" />
+
+          <property name="ivy.resolve.default.type.filter" value="*" />
+
+          <property name="sun.management.compiler.ivy.instance" value="HotSpot 64-Bit Tiered Compilers" />
+
+          <property name="ivy.cache.ttl.default.ivy.instance" value="10s" />
+
+          <property name="project.version" value="1.0" />
+
+          <property name="file.separator" value="/" />
+
+          <property name="java.vm.compressedOopsMode" value="Zero based" />
+
+          <property name="ivy.settings.dir.url" value="jar:file:/usr/share/ant/lib/ivy-2.5.1.jar!/org/apache/ivy/core/settings" />
+
+          <property name="ivy.dep.file.ivy.instance" value="ivy.xml" />
+
+          <property name="line.separator" value="&#xa;" />
+
+          <property name="sun.stdout.encoding" value="UTF-8" />
+
+          <property name="ivy.organisation" value="com.tutorialspoint" />
+
+          <property name="ivy.buildlist.ivyfilepath.ivy.instance" value="ivy.xml" />
+
+          <property name="java.vm.compressedOopsMode.ivy.instance" value="Zero based" />
+
+          <property name="av-flag" value="true" />
+
+          <property name="user.name" value="egor" />
+
+          <property name="sun.stderr.encoding.ivy.instance" value="UTF-8" />
+
+          <property name="ivy.publish.src.artifacts.pattern" value="/home/egor/mispi-svn-3/trunk/weblab-3/distrib/[type]s/[artifact]-[revision](-[classifier]).[ext]" />
+
+          <property name="ant.file.type.weblab-3" value="file" />
+
+          <property name="build.dir" value="build" />
+
+          <property name="dir.diff" value="src" />
+
+          <property name="file.name" value="aboba.txt" />
+
+          <property name="ant.home" value="/usr/share/ant" />
+
+          <property name="ivy.module" value="com" />
+
+          <property name="ivy.report.output.pattern" value="[organisation]-[module]-[conf].[ext]" />
+
+          <property name="ant.version" value="Apache Ant(TM) version 1.10.12 compiled on January 17 1970" />
+
+          <property name="ivy.log.modules.in.use" value="false" />
+
+          <property name="ivy.conf.url.ivy.instance" value="jar:file:/usr/share/ant/lib/ivy-2.5.1.jar!/org/apache/ivy/core/settings/ivysettings.xml" />
+
+          <property name="classes.dir" value="build/classes" />
+
+          <property name="os.arch.ivy.instance" value="amd64" />
+
+          <property name="java.library.path.ivy.instance" value="/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib" />
+
+          <property name="user.home.ivy.instance" value="/home/egor" />
+
+          <property name="ivy.shared.default.artifact.pattern.ivy.instance" value="[organisation]/[module]/[revision]/[type]s/[artifact].[ext]" />
+
+          <property name="java.vendor.url.bug.ivy.instance" value="Unknown" />
+
+          <property name="revision.list" value="------------------------------------------------------------------------r24 | egor | 2023-05-17 02:26:01 +0300 (Ср, 17 мая 2023)------------------------------------------------------------------------" />
+
+          <property name="ivy.local.default.root" value="/home/egor/.ivy2/local" />
+
+          <property name="java.class.path" value="/usr/share/ant/lib/ant-launcher.jar:/usr/share/ant/lib/ant-apache-log4j.jar:/usr/share/ant/lib/ivy-2.5.1.jar:/usr/share/ant/lib/ant-apache-bsf.jar:/usr/share/ant/lib/svnkit.jar:/usr/share/ant/lib/ant-apache-regexp.jar:/usr/share/ant/lib/jsch.jar:/usr/share/ant/lib/ant.jar:/usr/share/ant/lib/ant-apache-bcel.jar:/usr/share/ant/lib/ant-apache-resolver.jar:/usr/share/ant/lib/bcel.jar:/usr/share/ant/lib/ant-testutil.jar:/usr/share/ant/lib/ant-commons-logging.jar:/usr/share/ant/lib/ant-junit.jar:/usr/share/ant/lib/ant-antlr.jar:/usr/share/ant/lib/ant-jmf.jar:/usr/share/ant/lib/svnClientAdapter.jar:/usr/share/ant/lib/ant-apache-oro.jar:/usr/share/ant/lib/ant-launcher.jar:/usr/share/ant/lib/ant-apache-xalan2.jar:/usr/share/ant/lib/ant-jsch.jar:/usr/share/ant/lib/ant-javamail.jar:/usr/share/ant/lib/svnant.jar:/usr/share/ant/lib/ant-junit4.jar:/usr/share/ant/lib/ant-contrib.jar:/usr/share/ant/lib/ant-jdepend.jar:/usr/share/ant/lib/ant-swing.jar:/usr/share/ant/lib/ant-contrib-0.3.jar:/usr/share/ant/lib/ant-xz.jar:/usr/share/ant/lib/ant-commons-net.jar:/usr/share/ant/lib/svnjavahl.jar" />
+
+          <property name="java.vm.vendor" value="Private Build" />
+
+          <property name="java.vendor.ivy.instance" value="Private Build" />
+
+          <property name="main-class" value="com.example.facelets.Main" />
+
+          <property name="ivy.project.dir.ivy.instance" value="/home/egor/mispi-svn-3/trunk/weblab-3" />
+
+          <property name="ivy.status.ivy.instance" value="integration" />
+
+          <property name="user.country" value="RU" />
+
+          <property name="sun.java.launcher" value="SUN_STANDARD" />
+
+          <property name="ivy.retrieve.pattern" value="/home/egor/mispi-svn-3/trunk/weblab-3/lib/[artifact]-[revision](-[classifier]).[ext]" />
+
+          <property name="sun.cpu.endian" value="little" />
+
+          <property name="ivy.checksums.ivy.instance" value="sha1,md5" />
+
+          <property name="user.language" value="ru" />
+
+          <property name="user.name.ivy.instance" value="egor" />
+
+          <property name="ivy.home.ivy.instance" value="/home/egor/.ivy2" />
+
+          <property name="svn.repo" value="file:///var/lib/svn/mispi-svn-3" />
+
+          <property name="revision" value="23" />
+
+          <property name="native.encoding.ivy.instance" value="UTF-8" />
+
+          <property name="ant.java.version" value="17" />
+
+          <property name="ivy.basedir" value="/home/egor/mispi-svn-3/trunk/weblab-3" />
+
+          <property name="java.vm.vendor.ivy.instance" value="Private Build" />
+
+          <property name="ant.home.ivy.instance" value="/usr/share/ant" />
+
+          <property name="zip.file" value="revisions.zip" />
+
+          <property name="ivy.cache.ttl.default" value="10s" />
+
+          <property name="java.vm.name.ivy.instance" value="OpenJDK 64-Bit Server VM" />
+
+          <property name="ivy.resolver.default.check.modified.ivy.instance" value="false" />
+
+          <property name="java.specification.vendor.ivy.instance" value="Oracle Corporation" />
+
+          <property name="ivy.configurations" value="*" />
+
+          <property name="locales.file" value="data_ru_Ru.properties" />
+
+          <property name="ivy.default.always.check.exact.revision" value="false" />
+
+          <property name="java.runtime.name" value="OpenJDK Runtime Environment" />
+
+          <property name="ivy.distrib.dir.ivy.instance" value="/home/egor/mispi-svn-3/trunk/weblab-3/distrib" />
+
+          <property name="ant.project.invoked-targets" value="test" />
+
+          <property name="ant.core.lib" value="/usr/share/ant/lib/ant.jar" />
+
+          <property name="sun.stdout.encoding.ivy.instance" value="UTF-8" />
+
+          <property name="java.vendor.url.bug" value="Unknown" />
+
+          <property name="user.dir" value="/home/egor/mispi-svn-3/trunk/weblab-3" />
+
+          <property name="ascii.dest" value="./ascii" />
+
+          <property name="path.separator.ivy.instance" value=":" />
+
+          <property name="ivy.local.default.ivy.pattern.ivy.instance" value="[organisation]/[module]/[revision]/[type]s/[artifact].[ext]" />
+
+          <property name="ivy.report.output.pattern.ivy.instance" value="[organisation]-[module]-[conf].[ext]" />
+
+          <property name="ivy.log.modules.in.use.ivy.instance" value="false" />
+
+          <property name="java.vm.version" value="17.0.6+10-Ubuntu-0ubuntu122.04" />
+
+          <property name="ivy.resolver.default.check.modified" value="false" />
+
+          <property name="java.home.ivy.instance" value="/usr/lib/jvm/java-17-openjdk-amd64" />
+
+          <property name="ivy.shared.default.artifact.pattern" value="[organisation]/[module]/[revision]/[type]s/[artifact].[ext]" />
+
+          <property name="ivy.settings.url" value="jar:file:/usr/share/ant/lib/ivy-2.5.1.jar!/org/apache/ivy/core/settings/ivysettings.xml" />
+
+          <property name="ivy.build.artifacts.dir" value="/home/egor/mispi-svn-3/trunk/weblab-3/build/artifacts" />
+
+          <property name="ivy.resolved.configurations" value="default" />
+
+          <property name="ivy.conf.url" value="jar:file:/usr/share/ant/lib/ivy-2.5.1.jar!/org/apache/ivy/core/settings/ivysettings.xml" />
+
+      </properties>
+
+      <testcase classname="com.example.facelets.HitServiceTest" name="checkHit__missedHit__shouldReturnFalse" time="0.002" />
+
+      <testcase classname="com.example.facelets.HitServiceTest" name="checkHit__validHit__shouldReturnTrue" time="0.002">
+          <failure type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError
+	at com.example.facelets.HitServiceTest.checkHit__validHit__shouldReturnTrue(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at jdk.internal.reflect.GeneratedMethodAccessor5.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at jdk.internal.reflect.GeneratedMethodAccessor5.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.util.Vector.forEach(Vector.java:1365)
+	at jdk.internal.reflect.GeneratedMethodAccessor5.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at net.sf.antcontrib.logic.ForTask.doSequentialIteration(ForTask.java:259)
+	at net.sf.antcontrib.logic.ForTask.doToken(ForTask.java:268)
+	at net.sf.antcontrib.logic.ForTask.doTheTasks(ForTask.java:308)
+	at net.sf.antcontrib.logic.ForTask.execute(ForTask.java:244)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+</failure>
+
+      </testcase>
+
+      <system-out><![CDATA[]]></system-out>
+
+      <system-err><![CDATA[]]></system-err>
+
+  </testsuite>
+  <testsuite errors="1" failures="0" hostname="OMEN-Laptop-15-en0xxx" id="4" name="AttemptHitterTest" package="java.com.example.facelets" skipped="0" tests="1" time="0.0" timestamp="2023-05-16T22:12:43">
+      <properties>
+          <property name="sun.boot.library.path.ivy.instance" value="/usr/lib/jvm/java-17-openjdk-amd64/lib" />
+
+          <property name="java.specification.version" value="17" />
+
+          <property name="java.specification.version.ivy.instance" value="17" />
+
+          <property name="sun.cpu.endian.ivy.instance" value="little" />
+
+          <property name="sun.arch.data.model" value="64" />
+
+          <property name="ivy.home" value="/home/egor/.ivy2" />
+
+          <property name="java.vendor.url" value="Unknown" />
+
+          <property name="java.version.ivy.instance" value="17.0.6" />
+
+          <property name="ivy.default.conf.dir.ivy.instance" value="jar:file:/usr/share/ant/lib/ivy-2.5.1.jar!/org/apache/ivy/core/settings" />
+
+          <property name="ivy.conf.dir" value="jar:file:/usr/share/ant/lib/ivy-2.5.1.jar!/org/apache/ivy/core/settings" />
+
+          <property name="sun.boot.library.path" value="/usr/lib/jvm/java-17-openjdk-amd64/lib" />
+
+          <property name="sun.java.command" value="org.apache.tools.ant.launch.Launcher -cp  history" />
+
+          <property name="os.version.ivy.instance" value="5.19.0-41-generic" />
+
+          <property name="ivy.retrieve.pattern.ivy.instance" value="/home/egor/mispi-svn-3/trunk/weblab-3/lib/[artifact]-[revision](-[classifier]).[ext]" />
+
+          <property name="sun.jnu.encoding.ivy.instance" value="UTF-8" />
+
+          <property name="user.dir.ivy.instance" value="/home/egor/mispi-svn-3/trunk/weblab-3" />
+
+          <property name="jdk.debug" value="release" />
+
+          <property name="ivy.revision" value="working@OMEN-Laptop-15-en0xxx" />
+
+          <property name="java.specification.vendor" value="Oracle Corporation" />
+
+          <property name="java.vm.version.ivy.instance" value="17.0.6+10-Ubuntu-0ubuntu122.04" />
+
+          <property name="file.separator.ivy.instance" value="/" />
+
+          <property name="java.version.date" value="2023-01-17" />
+
+          <property name="ascii.ext" value=".properties" />
+
+          <property name="java.home" value="/usr/lib/jvm/java-17-openjdk-amd64" />
+
+          <property name="basedir" value="/home/egor/mispi-svn-3/trunk/weblab-3" />
+
+          <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+
+          <property name="java.specification.name" value="Java Platform API Specification" />
+
+          <property name="user.timezone.ivy.instance" value="Europe/Moscow" />
+
+          <property name="ivy.resolve.default.type.filter.ivy.instance" value="*" />
+
+          <property name="ivy.basedir.ivy.instance" value="/home/egor/mispi-svn-3/trunk/weblab-3" />
+
+          <property name="ivy.default.ivy.user.dir" value="/home/egor/.ivy2" />
+
+          <property name="ivy.lib.dir.ivy.instance" value="/home/egor/mispi-svn-3/trunk/weblab-3/lib" />
+
+          <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+
+          <property name="ivy.cache.dir" value="/home/egor/.ivy2/cache" />
+
+          <property name="java.runtime.version" value="17.0.6+10-Ubuntu-0ubuntu122.04" />
+
+          <property name="java.runtime.name.ivy.instance" value="OpenJDK Runtime Environment" />
+
+          <property name="sun.io.unicode.encoding.ivy.instance" value="UnicodeLittle" />
+
+          <property name="basedir.ivy.instance" value="/home/egor/mispi-svn-3/trunk/weblab-3" />
+
+          <property name="file.encoding" value="UTF-8" />
+
+          <property name="ivy.dep.file" value="ivy.xml" />
+
+          <property name="os.name.ivy.instance" value="Linux" />
+
+          <property name="user.language.ivy.instance" value="ru" />
+
+          <property name="ivy.settings.file" value="ivysettings.xml" />
+
+          <property name="java.vm.specification.version.ivy.instance" value="17" />
+
+          <property name="ivy.local.default.ivy.pattern" value="[organisation]/[module]/[revision]/[type]s/[artifact].[ext]" />
+
+          <property name="java.vendor.url.ivy.instance" value="Unknown" />
+
+          <property name="line.separator.ivy.instance" value="&#xa;" />
+
+          <property name="flg" value="false" />
+
+          <property name="java.io.tmpdir" value="/tmp" />
+
+          <property name="java.version" value="17.0.6" />
+
+          <property name="ivy.resolved.file" value="/home/egor/mispi-svn-3/trunk/weblab-3/ivy.xml" />
+
+          <property name="java.vm.specification.name.ivy.instance" value="Java Virtual Machine Specification" />
+
+          <property name="ivy.settings.dir.ivy.instance" value="jar:file:/usr/share/ant/lib/ivy-2.5.1.jar!/org/apache/ivy/core/settings" />
+
+          <property name="last.revision" value="13" />
+
+          <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+
+          <property name="file.encoding.ivy.instance" value="UTF-8" />
+
+          <property name="ivy.deliver.ivy.pattern" value="/home/egor/mispi-svn-3/trunk/weblab-3/distrib/[type]s/[artifact]-[revision](-[classifier]).[ext]" />
+
+          <property name="ivy.status" value="integration" />
+
+          <property name="native.encoding" value="UTF-8" />
+
+          <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib" />
+
+          <property name="java.vendor" value="Private Build" />
+
+          <property name="ant.file.weblab-3" value="/home/egor/mispi-svn-3/trunk/weblab-3/build.xml" />
+
+          <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+
+          <property name="sun.arch.data.model.ivy.instance" value="64" />
+
+          <property name="ivy.default.ivy.user.dir.ivy.instance" value="/home/egor/.ivy2" />
+
+          <property name="ant.file.type" value="file" />
+
+          <property name="music.path" value="./aboba.wav" />
+
+          <property name="ivy.parents.count" value="0" />
+
+          <property name="ivy.configurations.ivy.instance" value="*" />
+
+          <property name="java.io.tmpdir.ivy.instance" value="/tmp" />
+
+          <property name="java.version.date.ivy.instance" value="2023-01-17" />
+
+          <property name="ivy.default.settings.dir.ivy.instance" value="jar:file:/usr/share/ant/lib/ivy-2.5.1.jar!/org/apache/ivy/core/settings" />
+
+          <property name="ivy.shared.default.root" value="/home/egor/.ivy2/shared" />
+
+          <property name="ivy.shared.default.ivy.pattern" value="[organisation]/[module]/[revision]/[type]s/[artifact].[ext]" />
+
+          <property name="ivy.shared.default.ivy.pattern.ivy.instance" value="[organisation]/[module]/[revision]/[type]s/[artifact].[ext]" />
+
+          <property name="user.timezone" value="Europe/Moscow" />
+
+          <property name="java.vm.specification.version" value="17" />
+
+          <property name="os.name" value="Linux" />
+
+          <property name="ivy.deps.changed" value="false" />
+
+          <property name="ivy.lib.dir" value="/home/egor/mispi-svn-3/trunk/weblab-3/lib" />
+
+          <property name="zip.name" value="aboba.zip" />
+
+          <property name="test.dir" value="history/trunk/weblab-3/src/test" />
+
+          <property name="user.home" value="/home/egor" />
+
+          <property name="sun.java.command.ivy.instance" value="org.apache.tools.ant.launch.Launcher -cp  history" />
+
+          <property name="java.class.path.ivy.instance" value="/usr/share/ant/lib/ant-launcher.jar:/usr/share/ant/lib/ant-apache-log4j.jar:/usr/share/ant/lib/ivy-2.5.1.jar:/usr/share/ant/lib/ant-apache-bsf.jar:/usr/share/ant/lib/svnkit.jar:/usr/share/ant/lib/ant-apache-regexp.jar:/usr/share/ant/lib/jsch.jar:/usr/share/ant/lib/ant.jar:/usr/share/ant/lib/ant-apache-bcel.jar:/usr/share/ant/lib/ant-apache-resolver.jar:/usr/share/ant/lib/bcel.jar:/usr/share/ant/lib/ant-testutil.jar:/usr/share/ant/lib/ant-commons-logging.jar:/usr/share/ant/lib/ant-junit.jar:/usr/share/ant/lib/ant-antlr.jar:/usr/share/ant/lib/ant-jmf.jar:/usr/share/ant/lib/svnClientAdapter.jar:/usr/share/ant/lib/ant-apache-oro.jar:/usr/share/ant/lib/ant-launcher.jar:/usr/share/ant/lib/ant-apache-xalan2.jar:/usr/share/ant/lib/ant-jsch.jar:/usr/share/ant/lib/ant-javamail.jar:/usr/share/ant/lib/svnant.jar:/usr/share/ant/lib/ant-junit4.jar:/usr/share/ant/lib/ant-contrib.jar:/usr/share/ant/lib/ant-jdepend.jar:/usr/share/ant/lib/ant-swing.jar:/usr/share/ant/lib/ant-contrib-0.3.jar:/usr/share/ant/lib/ant-xz.jar:/usr/share/ant/lib/ant-commons-net.jar:/usr/share/ant/lib/svnjavahl.jar" />
+
+          <property name="ivy.publish.src.artifacts.pattern.ivy.instance" value="/home/egor/mispi-svn-3/trunk/weblab-3/distrib/[type]s/[artifact]-[revision](-[classifier]).[ext]" />
+
+          <property name="ivy.checksums" value="sha1,md5" />
+
+          <property name="ivy.default.settings.dir" value="jar:file:/usr/share/ant/lib/ivy-2.5.1.jar!/org/apache/ivy/core/settings" />
+
+          <property name="ivy.version" value="2.5.1" />
+
+          <property name="java.vm.info.ivy.instance" value="mixed mode, sharing" />
+
+          <property name="ivy.distrib.dir" value="/home/egor/mispi-svn-3/trunk/weblab-3/distrib" />
+
+          <property name="ant.library.dir.ivy.instance" value="/usr/share/ant/lib" />
+
+          <property name="ivy.settings.url.ivy.instance" value="jar:file:/usr/share/ant/lib/ivy-2.5.1.jar!/org/apache/ivy/core/settings/ivysettings.xml" />
+
+          <property name="ivy.project.dir" value="/home/egor/mispi-svn-3/trunk/weblab-3" />
+
+          <property name="ant.file" value="/home/egor/mispi-svn-3/trunk/weblab-3/build.xml" />
+
+          <property name="path.separator" value=":" />
+
+          <property name="os.version" value="5.19.0-41-generic" />
+
+          <property name="ivy.default.always.check.exact.revision.ivy.instance" value="false" />
+
+          <property name="java.vm.name" value="OpenJDK 64-Bit Server VM" />
+
+          <property name="ivy.buildlist.ivyfilepath" value="ivy.xml" />
+
+          <property name="os.arch" value="amd64" />
+
+          <property name="ivy.settings.dir.url.ivy.instance" value="jar:file:/usr/share/ant/lib/ivy-2.5.1.jar!/org/apache/ivy/core/settings" />
+
+          <property name="ivy.shared.default.root.ivy.instance" value="/home/egor/.ivy2/shared" />
+
+          <property name="ivy.deliver.ivy.pattern.ivy.instance" value="/home/egor/mispi-svn-3/trunk/weblab-3/distrib/[type]s/[artifact]-[revision](-[classifier]).[ext]" />
+
+          <property name="java.vm.info" value="mixed mode, sharing" />
+
+          <property name="ivy.conf.dir.ivy.instance" value="jar:file:/usr/share/ant/lib/ivy-2.5.1.jar!/org/apache/ivy/core/settings" />
+
+          <property name="user.country.ivy.instance" value="RU" />
+
+          <property name="java.class.version" value="61.0" />
+
+          <property name="src.dir" value="history/trunk/weblab-3/src" />
+
+          <property name="ant.project.default-target" value="build" />
+
+          <property name="ant.library.dir" value="/usr/share/ant/lib" />
+
+          <property name="ivy.cache.dir.ivy.instance" value="/home/egor/.ivy2/cache" />
+
+          <property name="ant.project.name" value="weblab-3" />
+
+          <property name="jdk.debug.ivy.instance" value="release" />
+
+          <property name="sun.jnu.encoding" value="UTF-8" />
+
+          <property name="java.specification.name.ivy.instance" value="Java Platform API Specification" />
+
+          <property name="ivy.settings.file.ivy.instance" value="ivysettings.xml" />
+
+          <property name="ivy.default.conf.dir" value="jar:file:/usr/share/ant/lib/ivy-2.5.1.jar!/org/apache/ivy/core/settings" />
+
+          <property name="java.runtime.version.ivy.instance" value="17.0.6+10-Ubuntu-0ubuntu122.04" />
+
+          <property name="java.vm.specification.vendor.ivy.instance" value="Oracle Corporation" />
+
+          <property name="ivy.local.default.artifact.pattern.ivy.instance" value="[organisation]/[module]/[revision]/[type]s/[artifact].[ext]" />
+
+          <property name="ivy.build.artifacts.dir.ivy.instance" value="/home/egor/mispi-svn-3/trunk/weblab-3/build/artifacts" />
+
+          <property name="ivy.settings.dir" value="jar:file:/usr/share/ant/lib/ivy-2.5.1.jar!/org/apache/ivy/core/settings" />
+
+          <property name="sun.java.launcher.ivy.instance" value="SUN_STANDARD" />
+
+          <property name="ivy.local.default.root.ivy.instance" value="/home/egor/.ivy2/local" />
+
+          <property name="ivy.local.default.artifact.pattern" value="[organisation]/[module]/[revision]/[type]s/[artifact].[ext]" />
+
+          <property name="sun.stderr.encoding" value="UTF-8" />
+
+          <property name="java.class.version.ivy.instance" value="61.0" />
+
+          <property name="ivy.resolve.default.type.filter" value="*" />
+
+          <property name="sun.management.compiler.ivy.instance" value="HotSpot 64-Bit Tiered Compilers" />
+
+          <property name="ivy.cache.ttl.default.ivy.instance" value="10s" />
+
+          <property name="project.version" value="1.0" />
+
+          <property name="file.separator" value="/" />
+
+          <property name="java.vm.compressedOopsMode" value="Zero based" />
+
+          <property name="ivy.settings.dir.url" value="jar:file:/usr/share/ant/lib/ivy-2.5.1.jar!/org/apache/ivy/core/settings" />
+
+          <property name="ivy.dep.file.ivy.instance" value="ivy.xml" />
+
+          <property name="line.separator" value="&#xa;" />
+
+          <property name="sun.stdout.encoding" value="UTF-8" />
+
+          <property name="ivy.organisation" value="com.tutorialspoint" />
+
+          <property name="ivy.buildlist.ivyfilepath.ivy.instance" value="ivy.xml" />
+
+          <property name="java.vm.compressedOopsMode.ivy.instance" value="Zero based" />
+
+          <property name="user.name" value="egor" />
+
+          <property name="sun.stderr.encoding.ivy.instance" value="UTF-8" />
+
+          <property name="ivy.publish.src.artifacts.pattern" value="/home/egor/mispi-svn-3/trunk/weblab-3/distrib/[type]s/[artifact]-[revision](-[classifier]).[ext]" />
+
+          <property name="ant.file.type.weblab-3" value="file" />
+
+          <property name="build.dir" value="history/trunk/weblab-3/build" />
+
+          <property name="dir.diff" value="src/main" />
+
+          <property name="file.name" value="aboba.txt" />
+
+          <property name="ant.home" value="/usr/share/ant" />
+
+          <property name="ivy.module" value="com" />
+
+          <property name="ant.version" value="Apache Ant(TM) version 1.10.12 compiled on January 17 1970" />
+
+          <property name="ivy.report.output.pattern" value="[organisation]-[module]-[conf].[ext]" />
+
+          <property name="ivy.log.modules.in.use" value="false" />
+
+          <property name="ivy.conf.url.ivy.instance" value="jar:file:/usr/share/ant/lib/ivy-2.5.1.jar!/org/apache/ivy/core/settings/ivysettings.xml" />
+
+          <property name="classes.dir" value="history/trunk/weblab-3/build/classes" />
+
+          <property name="os.arch.ivy.instance" value="amd64" />
+
+          <property name="java.library.path.ivy.instance" value="/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib" />
+
+          <property name="user.home.ivy.instance" value="/home/egor" />
+
+          <property name="ivy.shared.default.artifact.pattern.ivy.instance" value="[organisation]/[module]/[revision]/[type]s/[artifact].[ext]" />
+
+          <property name="java.vendor.url.bug.ivy.instance" value="Unknown" />
+
+          <property name="revision.list" value="------------------------------------------------------------------------r13 | egor | 2023-05-17 00:20:48 +0300 (Ср, 17 мая 2023)------------------------------------------------------------------------" />
+
+          <property name="ivy.local.default.root" value="/home/egor/.ivy2/local" />
+
+          <property name="java.class.path" value="/usr/share/ant/lib/ant-launcher.jar:/usr/share/ant/lib/ant-apache-log4j.jar:/usr/share/ant/lib/ivy-2.5.1.jar:/usr/share/ant/lib/ant-apache-bsf.jar:/usr/share/ant/lib/svnkit.jar:/usr/share/ant/lib/ant-apache-regexp.jar:/usr/share/ant/lib/jsch.jar:/usr/share/ant/lib/ant.jar:/usr/share/ant/lib/ant-apache-bcel.jar:/usr/share/ant/lib/ant-apache-resolver.jar:/usr/share/ant/lib/bcel.jar:/usr/share/ant/lib/ant-testutil.jar:/usr/share/ant/lib/ant-commons-logging.jar:/usr/share/ant/lib/ant-junit.jar:/usr/share/ant/lib/ant-antlr.jar:/usr/share/ant/lib/ant-jmf.jar:/usr/share/ant/lib/svnClientAdapter.jar:/usr/share/ant/lib/ant-apache-oro.jar:/usr/share/ant/lib/ant-launcher.jar:/usr/share/ant/lib/ant-apache-xalan2.jar:/usr/share/ant/lib/ant-jsch.jar:/usr/share/ant/lib/ant-javamail.jar:/usr/share/ant/lib/svnant.jar:/usr/share/ant/lib/ant-junit4.jar:/usr/share/ant/lib/ant-contrib.jar:/usr/share/ant/lib/ant-jdepend.jar:/usr/share/ant/lib/ant-swing.jar:/usr/share/ant/lib/ant-contrib-0.3.jar:/usr/share/ant/lib/ant-xz.jar:/usr/share/ant/lib/ant-commons-net.jar:/usr/share/ant/lib/svnjavahl.jar" />
+
+          <property name="java.vm.vendor" value="Private Build" />
+
+          <property name="java.vendor.ivy.instance" value="Private Build" />
+
+          <property name="main-class" value="com.example.facelets.Main" />
+
+          <property name="ivy.project.dir.ivy.instance" value="/home/egor/mispi-svn-3/trunk/weblab-3" />
+
+          <property name="ivy.status.ivy.instance" value="integration" />
+
+          <property name="sun.java.launcher" value="SUN_STANDARD" />
+
+          <property name="user.country" value="RU" />
+
+          <property name="ivy.retrieve.pattern" value="/home/egor/mispi-svn-3/trunk/weblab-3/lib/[artifact]-[revision](-[classifier]).[ext]" />
+
+          <property name="sun.cpu.endian" value="little" />
+
+          <property name="ivy.checksums.ivy.instance" value="sha1,md5" />
+
+          <property name="user.language" value="ru" />
+
+          <property name="user.name.ivy.instance" value="egor" />
+
+          <property name="ivy.home.ivy.instance" value="/home/egor/.ivy2" />
+
+          <property name="svn.repo" value="file:///var/lib/svn/mispi-svn-3" />
+
+          <property name="revision" value="1" />
+
+          <property name="ant.java.version" value="17" />
+
+          <property name="native.encoding.ivy.instance" value="UTF-8" />
+
+          <property name="ivy.basedir" value="/home/egor/mispi-svn-3/trunk/weblab-3" />
+
+          <property name="java.vm.vendor.ivy.instance" value="Private Build" />
+
+          <property name="ant.home.ivy.instance" value="/usr/share/ant" />
+
+          <property name="ivy.cache.ttl.default" value="10s" />
+
+          <property name="zip.file" value="revisions.zip" />
+
+          <property name="java.vm.name.ivy.instance" value="OpenJDK 64-Bit Server VM" />
+
+          <property name="ivy.resolver.default.check.modified.ivy.instance" value="false" />
+
+          <property name="java.specification.vendor.ivy.instance" value="Oracle Corporation" />
+
+          <property name="ivy.configurations" value="*" />
+
+          <property name="locales.file" value="data_ru_Ru.properties" />
+
+          <property name="ivy.default.always.check.exact.revision" value="false" />
+
+          <property name="java.runtime.name" value="OpenJDK Runtime Environment" />
+
+          <property name="ivy.distrib.dir.ivy.instance" value="/home/egor/mispi-svn-3/trunk/weblab-3/distrib" />
+
+          <property name="ant.project.invoked-targets" value="test" />
+
+          <property name="ant.core.lib" value="/usr/share/ant/lib/ant.jar" />
+
+          <property name="sun.stdout.encoding.ivy.instance" value="UTF-8" />
+
+          <property name="java.vendor.url.bug" value="Unknown" />
+
+          <property name="user.dir" value="/home/egor/mispi-svn-3/trunk/weblab-3" />
+
+          <property name="ascii.dest" value="./ascii" />
+
+          <property name="path.separator.ivy.instance" value=":" />
+
+          <property name="ivy.local.default.ivy.pattern.ivy.instance" value="[organisation]/[module]/[revision]/[type]s/[artifact].[ext]" />
+
+          <property name="ivy.report.output.pattern.ivy.instance" value="[organisation]-[module]-[conf].[ext]" />
+
+          <property name="ivy.log.modules.in.use.ivy.instance" value="false" />
+
+          <property name="java.vm.version" value="17.0.6+10-Ubuntu-0ubuntu122.04" />
+
+          <property name="ivy.resolver.default.check.modified" value="false" />
+
+          <property name="java.home.ivy.instance" value="/usr/lib/jvm/java-17-openjdk-amd64" />
+
+          <property name="ivy.shared.default.artifact.pattern" value="[organisation]/[module]/[revision]/[type]s/[artifact].[ext]" />
+
+          <property name="ivy.settings.url" value="jar:file:/usr/share/ant/lib/ivy-2.5.1.jar!/org/apache/ivy/core/settings/ivysettings.xml" />
+
+          <property name="ivy.build.artifacts.dir" value="/home/egor/mispi-svn-3/trunk/weblab-3/build/artifacts" />
+
+          <property name="ivy.resolved.configurations" value="default" />
+
+          <property name="ivy.conf.url" value="jar:file:/usr/share/ant/lib/ivy-2.5.1.jar!/org/apache/ivy/core/settings/ivysettings.xml" />
+
+      </properties>
+
+      <error message="java.com.example.facelets.AttemptHitterTest" type="java.lang.ClassNotFoundException">java.lang.ClassNotFoundException: java.com.example.facelets.AttemptHitterTest
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:467)
+	at jdk.internal.reflect.GeneratedMethodAccessor5.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at jdk.internal.reflect.GeneratedMethodAccessor5.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.util.Vector.forEach(Vector.java:1365)
+	at jdk.internal.reflect.GeneratedMethodAccessor5.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at net.sf.antcontrib.logic.ForTask.doSequentialIteration(ForTask.java:259)
+	at net.sf.antcontrib.logic.ForTask.doToken(ForTask.java:268)
+	at net.sf.antcontrib.logic.ForTask.doTheTasks(ForTask.java:308)
+	at net.sf.antcontrib.logic.ForTask.execute(ForTask.java:244)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+</error>
+
+      <system-out><![CDATA[]]></system-out>
+
+      <system-err><![CDATA[]]></system-err>
+
+  </testsuite>
+  <testsuite errors="1" failures="0" hostname="OMEN-Laptop-15-en0xxx" id="5" name="HitServiceTest" package="java.com.example.facelets" skipped="0" tests="1" time="0.0" timestamp="2023-05-16T22:12:44">
+      <properties>
+          <property name="sun.boot.library.path.ivy.instance" value="/usr/lib/jvm/java-17-openjdk-amd64/lib" />
+
+          <property name="java.specification.version" value="17" />
+
+          <property name="java.specification.version.ivy.instance" value="17" />
+
+          <property name="sun.cpu.endian.ivy.instance" value="little" />
+
+          <property name="sun.arch.data.model" value="64" />
+
+          <property name="ivy.home" value="/home/egor/.ivy2" />
+
+          <property name="java.vendor.url" value="Unknown" />
+
+          <property name="java.version.ivy.instance" value="17.0.6" />
+
+          <property name="ivy.default.conf.dir.ivy.instance" value="jar:file:/usr/share/ant/lib/ivy-2.5.1.jar!/org/apache/ivy/core/settings" />
+
+          <property name="ivy.conf.dir" value="jar:file:/usr/share/ant/lib/ivy-2.5.1.jar!/org/apache/ivy/core/settings" />
+
+          <property name="sun.boot.library.path" value="/usr/lib/jvm/java-17-openjdk-amd64/lib" />
+
+          <property name="sun.java.command" value="org.apache.tools.ant.launch.Launcher -cp  history" />
+
+          <property name="os.version.ivy.instance" value="5.19.0-41-generic" />
+
+          <property name="ivy.retrieve.pattern.ivy.instance" value="/home/egor/mispi-svn-3/trunk/weblab-3/lib/[artifact]-[revision](-[classifier]).[ext]" />
+
+          <property name="sun.jnu.encoding.ivy.instance" value="UTF-8" />
+
+          <property name="user.dir.ivy.instance" value="/home/egor/mispi-svn-3/trunk/weblab-3" />
+
+          <property name="jdk.debug" value="release" />
+
+          <property name="ivy.revision" value="working@OMEN-Laptop-15-en0xxx" />
+
+          <property name="java.specification.vendor" value="Oracle Corporation" />
+
+          <property name="java.vm.version.ivy.instance" value="17.0.6+10-Ubuntu-0ubuntu122.04" />
+
+          <property name="file.separator.ivy.instance" value="/" />
+
+          <property name="java.version.date" value="2023-01-17" />
+
+          <property name="ascii.ext" value=".properties" />
+
+          <property name="java.home" value="/usr/lib/jvm/java-17-openjdk-amd64" />
+
+          <property name="basedir" value="/home/egor/mispi-svn-3/trunk/weblab-3" />
+
+          <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+
+          <property name="java.specification.name" value="Java Platform API Specification" />
+
+          <property name="user.timezone.ivy.instance" value="Europe/Moscow" />
+
+          <property name="ivy.resolve.default.type.filter.ivy.instance" value="*" />
+
+          <property name="ivy.basedir.ivy.instance" value="/home/egor/mispi-svn-3/trunk/weblab-3" />
+
+          <property name="ivy.default.ivy.user.dir" value="/home/egor/.ivy2" />
+
+          <property name="ivy.lib.dir.ivy.instance" value="/home/egor/mispi-svn-3/trunk/weblab-3/lib" />
+
+          <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+
+          <property name="ivy.cache.dir" value="/home/egor/.ivy2/cache" />
+
+          <property name="java.runtime.version" value="17.0.6+10-Ubuntu-0ubuntu122.04" />
+
+          <property name="java.runtime.name.ivy.instance" value="OpenJDK Runtime Environment" />
+
+          <property name="sun.io.unicode.encoding.ivy.instance" value="UnicodeLittle" />
+
+          <property name="basedir.ivy.instance" value="/home/egor/mispi-svn-3/trunk/weblab-3" />
+
+          <property name="file.encoding" value="UTF-8" />
+
+          <property name="ivy.dep.file" value="ivy.xml" />
+
+          <property name="os.name.ivy.instance" value="Linux" />
+
+          <property name="user.language.ivy.instance" value="ru" />
+
+          <property name="ivy.settings.file" value="ivysettings.xml" />
+
+          <property name="java.vm.specification.version.ivy.instance" value="17" />
+
+          <property name="ivy.local.default.ivy.pattern" value="[organisation]/[module]/[revision]/[type]s/[artifact].[ext]" />
+
+          <property name="java.vendor.url.ivy.instance" value="Unknown" />
+
+          <property name="line.separator.ivy.instance" value="&#xa;" />
+
+          <property name="flg" value="false" />
+
+          <property name="java.io.tmpdir" value="/tmp" />
+
+          <property name="java.version" value="17.0.6" />
+
+          <property name="ivy.resolved.file" value="/home/egor/mispi-svn-3/trunk/weblab-3/ivy.xml" />
+
+          <property name="java.vm.specification.name.ivy.instance" value="Java Virtual Machine Specification" />
+
+          <property name="ivy.settings.dir.ivy.instance" value="jar:file:/usr/share/ant/lib/ivy-2.5.1.jar!/org/apache/ivy/core/settings" />
+
+          <property name="last.revision" value="13" />
+
+          <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+
+          <property name="file.encoding.ivy.instance" value="UTF-8" />
+
+          <property name="ivy.deliver.ivy.pattern" value="/home/egor/mispi-svn-3/trunk/weblab-3/distrib/[type]s/[artifact]-[revision](-[classifier]).[ext]" />
+
+          <property name="ivy.status" value="integration" />
+
+          <property name="native.encoding" value="UTF-8" />
+
+          <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib" />
+
+          <property name="java.vendor" value="Private Build" />
+
+          <property name="ant.file.weblab-3" value="/home/egor/mispi-svn-3/trunk/weblab-3/build.xml" />
+
+          <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+
+          <property name="sun.arch.data.model.ivy.instance" value="64" />
+
+          <property name="ivy.default.ivy.user.dir.ivy.instance" value="/home/egor/.ivy2" />
+
+          <property name="ant.file.type" value="file" />
+
+          <property name="music.path" value="./aboba.wav" />
+
+          <property name="ivy.parents.count" value="0" />
+
+          <property name="ivy.configurations.ivy.instance" value="*" />
+
+          <property name="java.io.tmpdir.ivy.instance" value="/tmp" />
+
+          <property name="java.version.date.ivy.instance" value="2023-01-17" />
+
+          <property name="ivy.default.settings.dir.ivy.instance" value="jar:file:/usr/share/ant/lib/ivy-2.5.1.jar!/org/apache/ivy/core/settings" />
+
+          <property name="ivy.shared.default.root" value="/home/egor/.ivy2/shared" />
+
+          <property name="ivy.shared.default.ivy.pattern" value="[organisation]/[module]/[revision]/[type]s/[artifact].[ext]" />
+
+          <property name="ivy.shared.default.ivy.pattern.ivy.instance" value="[organisation]/[module]/[revision]/[type]s/[artifact].[ext]" />
+
+          <property name="user.timezone" value="Europe/Moscow" />
+
+          <property name="java.vm.specification.version" value="17" />
+
+          <property name="os.name" value="Linux" />
+
+          <property name="ivy.deps.changed" value="false" />
+
+          <property name="ivy.lib.dir" value="/home/egor/mispi-svn-3/trunk/weblab-3/lib" />
+
+          <property name="zip.name" value="aboba.zip" />
+
+          <property name="test.dir" value="history/trunk/weblab-3/src/test" />
+
+          <property name="user.home" value="/home/egor" />
+
+          <property name="sun.java.command.ivy.instance" value="org.apache.tools.ant.launch.Launcher -cp  history" />
+
+          <property name="java.class.path.ivy.instance" value="/usr/share/ant/lib/ant-launcher.jar:/usr/share/ant/lib/ant-apache-log4j.jar:/usr/share/ant/lib/ivy-2.5.1.jar:/usr/share/ant/lib/ant-apache-bsf.jar:/usr/share/ant/lib/svnkit.jar:/usr/share/ant/lib/ant-apache-regexp.jar:/usr/share/ant/lib/jsch.jar:/usr/share/ant/lib/ant.jar:/usr/share/ant/lib/ant-apache-bcel.jar:/usr/share/ant/lib/ant-apache-resolver.jar:/usr/share/ant/lib/bcel.jar:/usr/share/ant/lib/ant-testutil.jar:/usr/share/ant/lib/ant-commons-logging.jar:/usr/share/ant/lib/ant-junit.jar:/usr/share/ant/lib/ant-antlr.jar:/usr/share/ant/lib/ant-jmf.jar:/usr/share/ant/lib/svnClientAdapter.jar:/usr/share/ant/lib/ant-apache-oro.jar:/usr/share/ant/lib/ant-launcher.jar:/usr/share/ant/lib/ant-apache-xalan2.jar:/usr/share/ant/lib/ant-jsch.jar:/usr/share/ant/lib/ant-javamail.jar:/usr/share/ant/lib/svnant.jar:/usr/share/ant/lib/ant-junit4.jar:/usr/share/ant/lib/ant-contrib.jar:/usr/share/ant/lib/ant-jdepend.jar:/usr/share/ant/lib/ant-swing.jar:/usr/share/ant/lib/ant-contrib-0.3.jar:/usr/share/ant/lib/ant-xz.jar:/usr/share/ant/lib/ant-commons-net.jar:/usr/share/ant/lib/svnjavahl.jar" />
+
+          <property name="ivy.publish.src.artifacts.pattern.ivy.instance" value="/home/egor/mispi-svn-3/trunk/weblab-3/distrib/[type]s/[artifact]-[revision](-[classifier]).[ext]" />
+
+          <property name="ivy.checksums" value="sha1,md5" />
+
+          <property name="ivy.default.settings.dir" value="jar:file:/usr/share/ant/lib/ivy-2.5.1.jar!/org/apache/ivy/core/settings" />
+
+          <property name="ivy.version" value="2.5.1" />
+
+          <property name="java.vm.info.ivy.instance" value="mixed mode, sharing" />
+
+          <property name="ivy.distrib.dir" value="/home/egor/mispi-svn-3/trunk/weblab-3/distrib" />
+
+          <property name="ant.library.dir.ivy.instance" value="/usr/share/ant/lib" />
+
+          <property name="ivy.settings.url.ivy.instance" value="jar:file:/usr/share/ant/lib/ivy-2.5.1.jar!/org/apache/ivy/core/settings/ivysettings.xml" />
+
+          <property name="ivy.project.dir" value="/home/egor/mispi-svn-3/trunk/weblab-3" />
+
+          <property name="ant.file" value="/home/egor/mispi-svn-3/trunk/weblab-3/build.xml" />
+
+          <property name="path.separator" value=":" />
+
+          <property name="os.version" value="5.19.0-41-generic" />
+
+          <property name="ivy.default.always.check.exact.revision.ivy.instance" value="false" />
+
+          <property name="java.vm.name" value="OpenJDK 64-Bit Server VM" />
+
+          <property name="ivy.buildlist.ivyfilepath" value="ivy.xml" />
+
+          <property name="os.arch" value="amd64" />
+
+          <property name="ivy.settings.dir.url.ivy.instance" value="jar:file:/usr/share/ant/lib/ivy-2.5.1.jar!/org/apache/ivy/core/settings" />
+
+          <property name="ivy.shared.default.root.ivy.instance" value="/home/egor/.ivy2/shared" />
+
+          <property name="ivy.deliver.ivy.pattern.ivy.instance" value="/home/egor/mispi-svn-3/trunk/weblab-3/distrib/[type]s/[artifact]-[revision](-[classifier]).[ext]" />
+
+          <property name="java.vm.info" value="mixed mode, sharing" />
+
+          <property name="ivy.conf.dir.ivy.instance" value="jar:file:/usr/share/ant/lib/ivy-2.5.1.jar!/org/apache/ivy/core/settings" />
+
+          <property name="user.country.ivy.instance" value="RU" />
+
+          <property name="java.class.version" value="61.0" />
+
+          <property name="src.dir" value="history/trunk/weblab-3/src" />
+
+          <property name="ant.project.default-target" value="build" />
+
+          <property name="ant.library.dir" value="/usr/share/ant/lib" />
+
+          <property name="ivy.cache.dir.ivy.instance" value="/home/egor/.ivy2/cache" />
+
+          <property name="ant.project.name" value="weblab-3" />
+
+          <property name="jdk.debug.ivy.instance" value="release" />
+
+          <property name="sun.jnu.encoding" value="UTF-8" />
+
+          <property name="java.specification.name.ivy.instance" value="Java Platform API Specification" />
+
+          <property name="ivy.settings.file.ivy.instance" value="ivysettings.xml" />
+
+          <property name="ivy.default.conf.dir" value="jar:file:/usr/share/ant/lib/ivy-2.5.1.jar!/org/apache/ivy/core/settings" />
+
+          <property name="java.runtime.version.ivy.instance" value="17.0.6+10-Ubuntu-0ubuntu122.04" />
+
+          <property name="java.vm.specification.vendor.ivy.instance" value="Oracle Corporation" />
+
+          <property name="ivy.local.default.artifact.pattern.ivy.instance" value="[organisation]/[module]/[revision]/[type]s/[artifact].[ext]" />
+
+          <property name="ivy.build.artifacts.dir.ivy.instance" value="/home/egor/mispi-svn-3/trunk/weblab-3/build/artifacts" />
+
+          <property name="ivy.settings.dir" value="jar:file:/usr/share/ant/lib/ivy-2.5.1.jar!/org/apache/ivy/core/settings" />
+
+          <property name="sun.java.launcher.ivy.instance" value="SUN_STANDARD" />
+
+          <property name="ivy.local.default.root.ivy.instance" value="/home/egor/.ivy2/local" />
+
+          <property name="ivy.local.default.artifact.pattern" value="[organisation]/[module]/[revision]/[type]s/[artifact].[ext]" />
+
+          <property name="sun.stderr.encoding" value="UTF-8" />
+
+          <property name="java.class.version.ivy.instance" value="61.0" />
+
+          <property name="ivy.resolve.default.type.filter" value="*" />
+
+          <property name="sun.management.compiler.ivy.instance" value="HotSpot 64-Bit Tiered Compilers" />
+
+          <property name="ivy.cache.ttl.default.ivy.instance" value="10s" />
+
+          <property name="project.version" value="1.0" />
+
+          <property name="file.separator" value="/" />
+
+          <property name="java.vm.compressedOopsMode" value="Zero based" />
+
+          <property name="ivy.settings.dir.url" value="jar:file:/usr/share/ant/lib/ivy-2.5.1.jar!/org/apache/ivy/core/settings" />
+
+          <property name="ivy.dep.file.ivy.instance" value="ivy.xml" />
+
+          <property name="line.separator" value="&#xa;" />
+
+          <property name="sun.stdout.encoding" value="UTF-8" />
+
+          <property name="ivy.organisation" value="com.tutorialspoint" />
+
+          <property name="ivy.buildlist.ivyfilepath.ivy.instance" value="ivy.xml" />
+
+          <property name="java.vm.compressedOopsMode.ivy.instance" value="Zero based" />
+
+          <property name="user.name" value="egor" />
+
+          <property name="sun.stderr.encoding.ivy.instance" value="UTF-8" />
+
+          <property name="ivy.publish.src.artifacts.pattern" value="/home/egor/mispi-svn-3/trunk/weblab-3/distrib/[type]s/[artifact]-[revision](-[classifier]).[ext]" />
+
+          <property name="ant.file.type.weblab-3" value="file" />
+
+          <property name="build.dir" value="history/trunk/weblab-3/build" />
+
+          <property name="dir.diff" value="src/main" />
+
+          <property name="file.name" value="aboba.txt" />
+
+          <property name="ant.home" value="/usr/share/ant" />
+
+          <property name="ivy.module" value="com" />
+
+          <property name="ant.version" value="Apache Ant(TM) version 1.10.12 compiled on January 17 1970" />
+
+          <property name="ivy.report.output.pattern" value="[organisation]-[module]-[conf].[ext]" />
+
+          <property name="ivy.log.modules.in.use" value="false" />
+
+          <property name="ivy.conf.url.ivy.instance" value="jar:file:/usr/share/ant/lib/ivy-2.5.1.jar!/org/apache/ivy/core/settings/ivysettings.xml" />
+
+          <property name="classes.dir" value="history/trunk/weblab-3/build/classes" />
+
+          <property name="os.arch.ivy.instance" value="amd64" />
+
+          <property name="java.library.path.ivy.instance" value="/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib" />
+
+          <property name="user.home.ivy.instance" value="/home/egor" />
+
+          <property name="ivy.shared.default.artifact.pattern.ivy.instance" value="[organisation]/[module]/[revision]/[type]s/[artifact].[ext]" />
+
+          <property name="java.vendor.url.bug.ivy.instance" value="Unknown" />
+
+          <property name="revision.list" value="------------------------------------------------------------------------r13 | egor | 2023-05-17 00:20:48 +0300 (Ср, 17 мая 2023)------------------------------------------------------------------------" />
+
+          <property name="ivy.local.default.root" value="/home/egor/.ivy2/local" />
+
+          <property name="java.class.path" value="/usr/share/ant/lib/ant-launcher.jar:/usr/share/ant/lib/ant-apache-log4j.jar:/usr/share/ant/lib/ivy-2.5.1.jar:/usr/share/ant/lib/ant-apache-bsf.jar:/usr/share/ant/lib/svnkit.jar:/usr/share/ant/lib/ant-apache-regexp.jar:/usr/share/ant/lib/jsch.jar:/usr/share/ant/lib/ant.jar:/usr/share/ant/lib/ant-apache-bcel.jar:/usr/share/ant/lib/ant-apache-resolver.jar:/usr/share/ant/lib/bcel.jar:/usr/share/ant/lib/ant-testutil.jar:/usr/share/ant/lib/ant-commons-logging.jar:/usr/share/ant/lib/ant-junit.jar:/usr/share/ant/lib/ant-antlr.jar:/usr/share/ant/lib/ant-jmf.jar:/usr/share/ant/lib/svnClientAdapter.jar:/usr/share/ant/lib/ant-apache-oro.jar:/usr/share/ant/lib/ant-launcher.jar:/usr/share/ant/lib/ant-apache-xalan2.jar:/usr/share/ant/lib/ant-jsch.jar:/usr/share/ant/lib/ant-javamail.jar:/usr/share/ant/lib/svnant.jar:/usr/share/ant/lib/ant-junit4.jar:/usr/share/ant/lib/ant-contrib.jar:/usr/share/ant/lib/ant-jdepend.jar:/usr/share/ant/lib/ant-swing.jar:/usr/share/ant/lib/ant-contrib-0.3.jar:/usr/share/ant/lib/ant-xz.jar:/usr/share/ant/lib/ant-commons-net.jar:/usr/share/ant/lib/svnjavahl.jar" />
+
+          <property name="java.vm.vendor" value="Private Build" />
+
+          <property name="java.vendor.ivy.instance" value="Private Build" />
+
+          <property name="main-class" value="com.example.facelets.Main" />
+
+          <property name="ivy.project.dir.ivy.instance" value="/home/egor/mispi-svn-3/trunk/weblab-3" />
+
+          <property name="ivy.status.ivy.instance" value="integration" />
+
+          <property name="sun.java.launcher" value="SUN_STANDARD" />
+
+          <property name="user.country" value="RU" />
+
+          <property name="ivy.retrieve.pattern" value="/home/egor/mispi-svn-3/trunk/weblab-3/lib/[artifact]-[revision](-[classifier]).[ext]" />
+
+          <property name="sun.cpu.endian" value="little" />
+
+          <property name="ivy.checksums.ivy.instance" value="sha1,md5" />
+
+          <property name="user.language" value="ru" />
+
+          <property name="user.name.ivy.instance" value="egor" />
+
+          <property name="ivy.home.ivy.instance" value="/home/egor/.ivy2" />
+
+          <property name="svn.repo" value="file:///var/lib/svn/mispi-svn-3" />
+
+          <property name="revision" value="1" />
+
+          <property name="ant.java.version" value="17" />
+
+          <property name="native.encoding.ivy.instance" value="UTF-8" />
+
+          <property name="ivy.basedir" value="/home/egor/mispi-svn-3/trunk/weblab-3" />
+
+          <property name="java.vm.vendor.ivy.instance" value="Private Build" />
+
+          <property name="ant.home.ivy.instance" value="/usr/share/ant" />
+
+          <property name="ivy.cache.ttl.default" value="10s" />
+
+          <property name="zip.file" value="revisions.zip" />
+
+          <property name="java.vm.name.ivy.instance" value="OpenJDK 64-Bit Server VM" />
+
+          <property name="ivy.resolver.default.check.modified.ivy.instance" value="false" />
+
+          <property name="java.specification.vendor.ivy.instance" value="Oracle Corporation" />
+
+          <property name="ivy.configurations" value="*" />
+
+          <property name="locales.file" value="data_ru_Ru.properties" />
+
+          <property name="ivy.default.always.check.exact.revision" value="false" />
+
+          <property name="java.runtime.name" value="OpenJDK Runtime Environment" />
+
+          <property name="ivy.distrib.dir.ivy.instance" value="/home/egor/mispi-svn-3/trunk/weblab-3/distrib" />
+
+          <property name="ant.project.invoked-targets" value="test" />
+
+          <property name="ant.core.lib" value="/usr/share/ant/lib/ant.jar" />
+
+          <property name="sun.stdout.encoding.ivy.instance" value="UTF-8" />
+
+          <property name="java.vendor.url.bug" value="Unknown" />
+
+          <property name="user.dir" value="/home/egor/mispi-svn-3/trunk/weblab-3" />
+
+          <property name="ascii.dest" value="./ascii" />
+
+          <property name="path.separator.ivy.instance" value=":" />
+
+          <property name="ivy.local.default.ivy.pattern.ivy.instance" value="[organisation]/[module]/[revision]/[type]s/[artifact].[ext]" />
+
+          <property name="ivy.report.output.pattern.ivy.instance" value="[organisation]-[module]-[conf].[ext]" />
+
+          <property name="ivy.log.modules.in.use.ivy.instance" value="false" />
+
+          <property name="java.vm.version" value="17.0.6+10-Ubuntu-0ubuntu122.04" />
+
+          <property name="ivy.resolver.default.check.modified" value="false" />
+
+          <property name="java.home.ivy.instance" value="/usr/lib/jvm/java-17-openjdk-amd64" />
+
+          <property name="ivy.shared.default.artifact.pattern" value="[organisation]/[module]/[revision]/[type]s/[artifact].[ext]" />
+
+          <property name="ivy.settings.url" value="jar:file:/usr/share/ant/lib/ivy-2.5.1.jar!/org/apache/ivy/core/settings/ivysettings.xml" />
+
+          <property name="ivy.build.artifacts.dir" value="/home/egor/mispi-svn-3/trunk/weblab-3/build/artifacts" />
+
+          <property name="ivy.resolved.configurations" value="default" />
+
+          <property name="ivy.conf.url" value="jar:file:/usr/share/ant/lib/ivy-2.5.1.jar!/org/apache/ivy/core/settings/ivysettings.xml" />
+
+      </properties>
+
+      <error message="java.com.example.facelets.HitServiceTest" type="java.lang.ClassNotFoundException">java.lang.ClassNotFoundException: java.com.example.facelets.HitServiceTest
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:467)
+	at jdk.internal.reflect.GeneratedMethodAccessor5.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at jdk.internal.reflect.GeneratedMethodAccessor5.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.util.Vector.forEach(Vector.java:1365)
+	at jdk.internal.reflect.GeneratedMethodAccessor5.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at net.sf.antcontrib.logic.ForTask.doSequentialIteration(ForTask.java:259)
+	at net.sf.antcontrib.logic.ForTask.doToken(ForTask.java:268)
+	at net.sf.antcontrib.logic.ForTask.doTheTasks(ForTask.java:308)
+	at net.sf.antcontrib.logic.ForTask.execute(ForTask.java:244)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+</error>
+
+      <system-out><![CDATA[]]></system-out>
+
+      <system-err><![CDATA[]]></system-err>
+
+  </testsuite>
+</testsuites>
